@@ -1,7 +1,7 @@
 {
   "meta": {
-    "feedVersion": "2026.08.03-9",
-    "generatedAt": "2026-08-03T10:59:27.479Z",
+    "feedVersion": "2026.08.03-10",
+    "generatedAt": "2026-08-03T12:58:34.638Z",
     "source": "fatu-feed pipeline（最高人民法院/最高人民检察院/司法部官方发布页）"
   },
   "cases": [
@@ -7297,16 +7297,11 @@
       "year": 2011,
       "title": "上海中原物业顾问有限公司诉陶德华居间合同纠纷案",
       "cause": "上海中原物业顾问有限公司诉陶德华居间合同纠纷",
-      "keywords": [
-        "民事",
-        "居间合同",
-        "二手房买卖",
-        "违约"
-      ],
+      "keywords": [],
       "gist": "要旨整理中，以官方发布原文为准。",
       "practicePoints": [],
       "relatedArticleIds": [],
-      "officialUrl": "http://gongbao.court.gov.cn/Details/c796c701e6f036c15e3272b478c0ec.html",
+      "officialUrl": "https://www.court.gov.cn/shenpan/xiangqing/4214.html",
       "stub": true
     },
     {
@@ -7317,13 +7312,11 @@
       "year": 2011,
       "title": "吴梅诉四川省眉山西城纸业有限公司买卖合同纠纷案",
       "cause": "吴梅诉四川省眉山西城纸业有限公司买卖合同纠纷",
-      "keywords": [
-        "民事诉讼 执行 和解 撤回上诉 不履行和解协议 申请执行一审判决"
-      ],
+      "keywords": [],
       "gist": "要旨整理中，以官方发布原文为准。",
       "practicePoints": [],
       "relatedArticleIds": [],
-      "officialUrl": "http://gongbao.court.gov.cn/Details/c796c701e6f036c15e3272b478c0ec.html",
+      "officialUrl": "https://www.court.gov.cn/shenpan/xiangqing/4215.html",
       "stub": true
     },
     {
@@ -7334,13 +7327,11 @@
       "year": 2011,
       "title": "潘玉梅、陈宁受贿案",
       "cause": "潘玉梅、陈宁受贿",
-      "keywords": [
-        "刑事受贿罪 “合办”公司 受贿 低价购房 受贿承诺谋利 受贿数额计算 掩饰受贿退赃"
-      ],
+      "keywords": [],
       "gist": "要旨整理中，以官方发布原文为准。",
       "practicePoints": [],
       "relatedArticleIds": [],
-      "officialUrl": "http://gongbao.court.gov.cn/Details/c796c701e6f036c15e3272b478c0ec.html",
+      "officialUrl": "https://www.court.gov.cn/shenpan/xiangqing/4216.html",
       "stub": true
     },
     {
@@ -7351,13 +7342,11 @@
       "year": 2011,
       "title": "王志才故意杀人案",
       "cause": "王志才故意杀人",
-      "keywords": [
-        "刑事 故意杀人罪 婚恋纠纷 引发 坦白 悔罪 死刑缓期执行 限制减刑"
-      ],
+      "keywords": [],
       "gist": "要旨整理中，以官方发布原文为准。",
       "practicePoints": [],
       "relatedArticleIds": [],
-      "officialUrl": "http://gongbao.court.gov.cn/Details/c796c701e6f036c15e3272b478c0ec.html",
+      "officialUrl": "https://www.court.gov.cn/shenpan/xiangqing/4217.html",
       "stub": true
     },
     {
