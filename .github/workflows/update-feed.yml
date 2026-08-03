@@ -1,0 +1,36 @@
+name: update-content-feed
+
+# 每日北京时间 06:00（UTC 22:00）抓取官方源，生成 feed JSON 并提交；
+# 也可在 Actions 页面手动触发（workflow_dispatch）。
+on:
+  schedule:
+    - cron: '0 22 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Scrape official sources
+        run: node scripts/scrape.mjs --pretty
+
+      - name: Commit feed
+        run: |
+          git config user.name "fatu-feed-bot"
+          git config user.email "fatu-feed-bot@users.noreply.github.com"
+          git add guiding-cases-feed.json legal-updates-feed.json seeds/
+          if git diff --cached --quiet; then
+            echo "无内容变更，跳过提交"
+          else
+            git commit -m "chore(feed): auto update $(date -u +%F)"
+            git push
+          fi
