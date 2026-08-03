@@ -751,6 +751,26 @@ const cases = mergeCases(
   snapshot,
 );
 // 合并优先级：上次 feed（含人工编辑）> 应用内置富化 > 本次抓取（新 id）
+
+// 案件事实 overlay：seeds/spc-facts.json（AI 精读富化层，随仓库分发，重抓不丢）
+// 结构 { "spc-61": { facts, outcome } }，按 id attach 到 SPC 条目
+let factsAttached = 0;
+try {
+  const factsPath = join(REPO_ROOT, 'seeds', 'spc-facts.json');
+  if (existsSync(factsPath)) {
+    const factsOverlay = JSON.parse(readFileSync(factsPath, 'utf-8'));
+    for (const c of cases) {
+      const o = factsOverlay[c.id];
+      if (!o) continue;
+      if (o.facts) c.facts = o.facts;
+      if (o.outcome) c.outcome = o.outcome;
+      factsAttached++;
+    }
+  }
+} catch (e) {
+  console.warn('spc-facts overlay 加载失败（容忍，不阻塞）:', e?.message ?? e);
+}
+if (factsAttached > 0) console.log(`案件事实 overlay: ${factsAttached} 件已附加`);
 const bundledUpdates = loadBundledUpdates();
 const updates = mergeUpdates(prevUpdates?.updates ?? [], bundledUpdates, sfjs.updates);
 
