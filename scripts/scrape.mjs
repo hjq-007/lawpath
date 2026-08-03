@@ -19,7 +19,8 @@
  *   - 富化来源优先级：上次 feed 人工编辑 > seeds/enriched-snapshot.json（应用数据快照）
  *   - 本次未抓到的旧条目保留（源抖动不清空内容）
  *
- * 安全自检：spc / spp / sfjs 任一源本次抓取数 < 上次的 90% → 中止且不写文件
+ * 安全自检：spc / spp / sfjs 任一源本次抓取数 < 上次的 90% → 回退沿用上次 feed 中该源条目（降级不中止）；
+  *   仅当所有核心源均无数据且无上次 feed 时才中止
  *
  * 用法：
  *   node scrape.mjs                  # 输出到本仓库根（feed 仓库模式）
@@ -722,7 +723,9 @@ console.log(`SPP 检例:     ${spp.cases.length} 件（批次 ${spp.batches ?? 0
 console.log(`司法解释:     ${sfjs.updates.length} 条${sfjs.error ? ' [错误] ' + sfjs.error : ''}`);
 console.log(`MOJ 典型案例: ${moj.cases.length} 件（best-effort）${moj.error ? ' [错误] ' + moj.error : ''}`);
 
-// ===== 安全自检：任一核心源低于上次 90% → 中止 =====
+// ===== 安全自检：任一核心源低于上次 90% → 该源回退沿用上次 feed（降级，不中止整轮）=====
+// 背景：官方站点可能按机房 IP 封禁（如 GitHub Actions 跑 SPP 返回 0），
+// 单源抖动不应阻塞其他源的正常更新；merge 机制会保留富化条目。
 const GUARDS = [
   ['spc', spc.cases.length, (prevCases?.cases ?? []).filter((c) => c.source === 'spc' && c.stub).length],
   ['spp', spp.cases.length, (prevCases?.cases ?? []).filter((c) => c.source === 'spp' && c.stub).length],
@@ -730,8 +733,10 @@ const GUARDS = [
 ];
 for (const [name, now, before] of GUARDS) {
   if (before > 0 && now < before * 0.9) {
-    console.error(`自检失败：源 ${name} 本次 ${now} 条 < 上次 ${before} 条的 90%，已中止（不写入任何文件）`);
-    process.exit(1);
+    if (name === 'spc') spc.cases = (prevCases?.cases ?? []).filter((c) => c.source === 'spc');
+    if (name === 'spp') spp.cases = (prevCases?.cases ?? []).filter((c) => c.source === 'spp');
+    if (name === 'sfjs') sfjs.updates = (prevUpdates?.updates ?? []).filter((u) => u.id.startsWith('sfjs-'));
+    console.warn(`自检警告：源 ${name} 本次 ${now} 条 < 上次 ${before} 条的 90%，该源回退沿用上次 feed 条目`);
   }
 }
 // 首次运行底线：核心源全空则视为网络故障，中止
