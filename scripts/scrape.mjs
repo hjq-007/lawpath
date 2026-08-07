@@ -446,22 +446,41 @@ async function scrapeSpp() {
   const BASE = 'https://www.spp.gov.cn';
   const batches = []; // {label,url,date}
 
-  for (let p = 0; p < 20; p++) {
+  // 翻页容忍空页：栏目 index_1 为空页，历史批次（第 1-33 批）在 index_2/3，
+  // 遇空页继续翻，连续 2 页无批次才结束（修复此前遇空 break 导致检例 1-130 号缺失的问题）
+  const seenBatch = new Set();
+  let emptyStreak = 0;
+  for (let p = 0; p < 8; p++) {
     const url = p === 0 ? `${BASE}/spp/jczdal/index.shtml` : `${BASE}/spp/jczdal/index_${p}.shtml`;
     let r;
     try {
       r = await get(url);
     } catch {
-      break;
+      emptyStreak++;
+      if (emptyStreak >= 2) break;
+      continue;
     }
-    if (r.status !== 200) break;
+    if (r.status !== 200) {
+      emptyStreak++;
+      if (emptyStreak >= 2) break;
+      continue;
+    }
     const items = [
       ...r.text.matchAll(
         /<li><a href="([^"]+)"[^>]*>(第[0-9零一二两三四五六七八九十百]+批指导性案例)<\/a><span>(\d{4}-\d{2}-\d{2})<\/span><\/li>/g,
       ),
     ];
-    if (items.length === 0) break;
-    for (const m of items) batches.push({ label: m[2], url: absUrl(url, m[1]), date: m[3] });
+    if (items.length === 0) {
+      emptyStreak++;
+      if (emptyStreak >= 2) break;
+      continue;
+    }
+    emptyStreak = 0;
+    for (const m of items) {
+      if (seenBatch.has(m[1])) continue;
+      seenBatch.add(m[1]);
+      batches.push({ label: m[2], url: absUrl(url, m[1]), date: m[3] });
+    }
     await sleep(SLEEP_MS);
   }
 
@@ -511,6 +530,76 @@ async function scrapeSpp() {
 }
 
 // ===== 源 3：最高法司法解释 → 法律更新 =====
+// ===== 法考 / 法硕相关性评估（科目推断 + 分级） =====
+// 法考八大科：刑法 / 民法 / 刑诉 / 民诉 / 行政法 / 商经知 / 理论法 / 三国法
+const SUBJECT_RULES = [
+  { subject: '刑法', words: ['犯罪', '刑罚', '死刑', '量刑', '刑事', '诈骗', '贪污', '受贿', '贿赂', '毒品', '走私', '洗钱', '非法集资', '危险驾驶', '正当防卫', '盗窃', '抢劫', '故意伤害', '杀人', '性侵', '猥亵', '拐卖', '网络犯罪', '黑恶势力', '职务犯罪', '减刑', '假释', '暂予监外执行', '社区矫正'] },
+  { subject: '刑事诉讼法', words: ['刑事诉讼', '刑事审判', '公诉', '抗诉', '刑事附带民事', '刑事赔偿', '死刑复核', '认罪认罚', '速裁程序', '刑事证据', '取保候审', '监视居住', '刑事执行'] },
+  { subject: '民法', words: ['合同', '物权', '侵权', '婚姻', '继承', '人格权', '保证', '抵押', '质押', '买卖', '租赁', '借款', '建设工程', '房屋', '物业', '民间借贷', '赡养', '抚养', '监护', '民事主体', '个人信息保护', '名誉', '肖像', '隐私', '道路交通事故', '机动车事故'] },
+  { subject: '民事诉讼法', words: ['民事诉讼', '民事审判', '执行异议', '强制执行', '财产保全', '先予执行', '民事证据', '再审', '审判监督', '小额诉讼', '在线诉讼', '多元解纷', '诉源治理', '仲裁', '管辖', '互联网法院'] },
+  { subject: '行政法', words: ['行政', '行政处罚', '行政许可', '行政强制', '行政复议', '行政诉讼', '国家赔偿', '政府信息公开', '征收', '拆迁', '治安'] },
+  { subject: '商法', words: ['公司', '破产', '合伙', '证券', '保险', '票据', '信托', '外商投资', '企业', '股东', '股权', '债券', '期货', '反垄断', '不正当竞争', '消费者权益'] },
+  { subject: '知识产权', words: ['著作权', '商标', '专利', '知识产权', '商业秘密', '地理标志'] },
+  { subject: '劳动法', words: ['劳动', '工伤', '社会保险', '就业', '工资', '加班', '辞退', '竞业限制', '新业态用工', '服务期'] },
+  { subject: '环境资源法', words: ['环境', '生态', '污染', '碳排放', '自然保护', '流域', '湿地', '耕地', '黑土地', '矿产', '采矿'] },
+  { subject: '国际法', words: ['涉外', '国际', '外国', '跨境', '海事', '海商', '域外', '船舶', '提单'] },
+  { subject: '理论法', words: ['宪法', '立法', '法治', '司法体制', '司法改革', '法律职业'] },
+  { subject: '司法制度', words: ['律师', '公证', '司法鉴定', '法律援助', '人民调解', '陪审员', '法官', '检察官'] },
+];
+// 事务性 / 与法考低相关特征词（命中且不涉及主干法 → low）
+const LOW_RELEVANCE_WORDS = ['任免', '表彰', '名单', '公示', '人事', '招聘', '招录', '征兵', '慰问', '会议闭幕', '工作会议', '述职', '民主生活', '巡查', '巡视整改', '工会', '共青团', '妇女', '老龄', '慈善', '捐款', '读书', '运动会'];
+
+/**
+ * 评估法律更新条目的法考相关性
+ * @returns {{ priority: 'high'|'medium'|'low', affectedSubjects: string[], examRelevance: string }}
+ */
+function assessExamRelevance(title) {
+  const subjects = [];
+  for (const rule of SUBJECT_RULES) {
+    if (rule.words.some((w) => title.includes(w))) subjects.push(rule.subject);
+  }
+  const isInterpretation = /解释|规定|规则|纪要|实施意见|指导意见|办案规则|办法/.test(title);
+  // 规范性司法文件特征：书名号文件名，或裸标题但含实体审理词（如"关于审理……纠纷案件的解释"）
+  const isNormativeDoc =
+    isInterpretation &&
+    (/《[^》]+》/.test(title) || /纠纷|案件|犯罪|诉讼|执行|赔偿|审理|办理/.test(title));
+  const hitsLow = LOW_RELEVANCE_WORDS.some((w) => title.includes(w));
+  if (hitsLow) {
+    return {
+      priority: 'low',
+      affectedSubjects: subjects,
+      examRelevance: '与法考/法硕关联度较低，了解即可。',
+    };
+  }
+  if (subjects.length > 0) {
+    if (isInterpretation && /纠纷|案件|犯罪|程序|诉讼|执行|赔偿/.test(title)) {
+      return {
+        priority: 'high',
+        affectedSubjects: subjects,
+        examRelevance: `新发布司法解释/司法文件，涉及 ${subjects.join('、')} 考点，请关注后续精编解读。`,
+      };
+    }
+    return {
+      priority: 'medium',
+      affectedSubjects: subjects,
+      examRelevance: `与 ${subjects.join('、')} 相关的官方动态，请关注后续解读与考点分析。`,
+    };
+  }
+  // 未识别科目：规范性司法文件按 medium 追踪（待精编确认归属），明显事务性内容才判 low
+  if (isNormativeDoc) {
+    return {
+      priority: 'medium',
+      affectedSubjects: [],
+      examRelevance: '官方司法文件，与法考/法硕的关联及科目归属待精编确认。',
+    };
+  }
+  return {
+    priority: 'low',
+    affectedSubjects: [],
+    examRelevance: '与法考/法硕关联度较低的官方动态，了解即可。',
+  };
+}
+
 async function scrapeSfjs() {
   const BASE = 'https://www.court.gov.cn';
   const updates = [];
@@ -532,22 +621,47 @@ async function scrapeSfjs() {
     for (const m of items) {
       const idM = m[2].match(/(\d+)\.html/);
       const link = absUrl(BASE, m[2]);
+      const assess = assessExamRelevance(m[1]);
       updates.push({
         id: `sfjs-${idM ? idM[1] : updates.length}`,
-        priority: 'medium',
+        priority: assess.priority,
         type: 'interpretation',
         title: m[1],
         date: m[3],
         authority: '最高人民法院',
         description: `（自动收录）最高人民法院司法解释/司法文件，官方原文：${link}`,
         keyChanges: [],
-        examRelevance: '新发布司法解释/司法文件，请关注后续解读与考点分析。',
-        affectedSubjects: [],
+        examRelevance: assess.examRelevance,
+        affectedSubjects: assess.affectedSubjects,
       });
     }
     await sleep(SLEEP_MS);
   }
   return { updates };
+}
+
+/**
+ * 自动收录条目后处理：对尚未精编的条目（keyChanges 为空）统一应用法考相关性评估。
+ * 只填充空字段，不覆盖人工编辑内容（人工条目 keyChanges 非空，直接跳过）。
+ * 由于 mergeUpdates 先入优先，旧 feed 的自动收录条目不会重新走 scrapeSfjs，
+ * 需要在合并后对存量条目统一补充分级，保证全库分层一致。
+ */
+// 机器标注的 examRelevance 模板前缀（区别于人工撰写的具体分析）
+const AUTO_RELEVANCE_RE = /^(新发布司法解释\/司法文件|与 .+ 相关的官方动态|与法考\/法硕关联度较低|官方司法文件，与法考)/;
+
+function enrichAutoUpdates(updates) {
+  let enriched = 0;
+  for (const u of updates) {
+    if (u.keyChanges && u.keyChanges.length > 0) continue; // 人工精编条目跳过
+    const machineTagged = !u.examRelevance || AUTO_RELEVANCE_RE.test(u.examRelevance);
+    if (!machineTagged && u.affectedSubjects && u.affectedSubjects.length > 0) continue; // 人工分级保留
+    const assess = assessExamRelevance(u.title ?? '');
+    u.priority = assess.priority;
+    u.affectedSubjects = assess.affectedSubjects;
+    if (machineTagged) u.examRelevance = assess.examRelevance;
+    enriched++;
+  }
+  return enriched;
 }
 
 // ===== 源 4：司法部典型案例（best-effort） =====
@@ -753,7 +867,8 @@ const cases = mergeCases(
 // 合并优先级：上次 feed（含人工编辑）> 应用内置富化 > 本次抓取（新 id）
 
 // 案件事实 overlay：seeds/spc-facts.json（AI 精读富化层，随仓库分发，重抓不丢）
-// 结构 { "spc-61": { facts, outcome } }，按 id attach 到 SPC 条目
+// 结构 { "spc-61": { facts, outcome, gist?, practicePoints?, keywords?, relatedArticleIds? } }
+// 含 gist 时视为完整整理条目，解除 stub 标记
 let factsAttached = 0;
 try {
   const factsPath = join(REPO_ROOT, 'seeds', 'spc-facts.json');
@@ -764,6 +879,14 @@ try {
       if (!o) continue;
       if (o.facts) c.facts = o.facts;
       if (o.outcome) c.outcome = o.outcome;
+      if (o.gist) {
+        c.gist = o.gist;
+        c.stub = false;
+      }
+      if (Array.isArray(o.practicePoints) && o.practicePoints.length > 0) c.practicePoints = o.practicePoints;
+      if (Array.isArray(o.keywords) && o.keywords.length > 0) c.keywords = o.keywords;
+      if (Array.isArray(o.relatedArticleIds) && o.relatedArticleIds.length > 0)
+        c.relatedArticleIds = o.relatedArticleIds;
       factsAttached++;
     }
   }
@@ -771,8 +894,46 @@ try {
   console.warn('spc-facts overlay 加载失败（容忍，不阻塞）:', e?.message ?? e);
 }
 if (factsAttached > 0) console.log(`案件事实 overlay: ${factsAttached} 件已附加`);
+
+// 检例精读 overlay：seeds/spp-facts.json（人工精读富化层，随仓库分发，重抓不丢）
+// 结构 { "spp-131": { facts, outcome, gist?, practicePoints?, keywords?, relatedArticleIds? } }
+// 含 gist 时视为完整整理条目，解除 stub 标记
+let sppFactsAttached = 0;
+try {
+  const sppFactsPath = join(REPO_ROOT, 'seeds', 'spp-facts.json');
+  if (existsSync(sppFactsPath)) {
+    const sppOverlay = JSON.parse(readFileSync(sppFactsPath, 'utf-8'));
+    for (const c of cases) {
+      const o = sppOverlay[c.id];
+      if (!o) continue;
+      if (o.facts) c.facts = o.facts;
+      if (o.outcome) c.outcome = o.outcome;
+      if (o.gist) {
+        c.gist = o.gist;
+        c.stub = false;
+      }
+      if (Array.isArray(o.practicePoints) && o.practicePoints.length > 0) c.practicePoints = o.practicePoints;
+      if (Array.isArray(o.keywords) && o.keywords.length > 0) c.keywords = o.keywords;
+      if (Array.isArray(o.relatedArticleIds) && o.relatedArticleIds.length > 0)
+        c.relatedArticleIds = o.relatedArticleIds;
+      sppFactsAttached++;
+    }
+  }
+} catch (e) {
+  console.warn('spp-facts overlay 加载失败（容忍，不阻塞）:', e?.message ?? e);
+}
+if (sppFactsAttached > 0) console.log(`检例精读 overlay: ${sppFactsAttached} 件已附加`);
+
 const bundledUpdates = loadBundledUpdates();
-const updates = mergeUpdates(prevUpdates?.updates ?? [], bundledUpdates, sfjs.updates);
+// 人工精编条目（内置兜底中 keyChanges 非空）最优先：同 id 替换上次 feed 中的自动收录版
+const curatedBundled = bundledUpdates.filter(
+  (u) => Array.isArray(u.keyChanges) && u.keyChanges.length > 0,
+);
+const restBundled = bundledUpdates.filter((u) => !curatedBundled.includes(u));
+const updates = mergeUpdates(curatedBundled, prevUpdates?.updates ?? [], restBundled, sfjs.updates);
+// 存量自动收录条目统一补充分级（不覆盖人工精编字段）
+const enrichedCount = enrichAutoUpdates(updates);
+if (enrichedCount > 0) console.log(`法考相关性分级: ${enrichedCount} 条自动收录条目已标注`);
 
 const casesFeed = { meta: bumpVersion(prevCases?.meta), cases };
 const updatesFeed = { meta: bumpVersion(prevUpdates?.meta), updates };
