@@ -1,7 +1,7 @@
 {
   "meta": {
-    "feedVersion": "2026.08.23-1",
-    "generatedAt": "2026-08-23T22:31:21.348Z",
+    "feedVersion": "2026.08.24-1",
+    "generatedAt": "2026-08-24T22:33:02.970Z",
     "source": "fatu-feed pipeline（最高人民法院/最高人民检察院/司法部官方发布页）"
   },
   "updates": [
@@ -1842,6 +1842,21 @@
       }
     },
     {
+      "id": "sfjs-408932",
+      "priority": "high",
+      "type": "interpretation",
+      "title": "最高人民法院关于审理生态环境侵权责任纠纷案件适用法律若干问题的解释",
+      "date": "2023-08-15",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/408932.html",
+      "keyChanges": [],
+      "examRelevance": "新发布司法解释/司法文件，涉及 民法、环境资源法 考点，请关注后续精编解读。",
+      "affectedSubjects": [
+        "民法",
+        "环境资源法"
+      ]
+    },
+    {
       "id": "sfjs-408942",
       "priority": "high",
       "type": "interpretation",
@@ -1854,21 +1869,6 @@
       "affectedSubjects": [
         "民法",
         "民事诉讼法",
-        "环境资源法"
-      ]
-    },
-    {
-      "id": "sfjs-408932",
-      "priority": "high",
-      "type": "interpretation",
-      "title": "最高人民法院关于审理生态环境侵权责任纠纷案件适用法律若干问题的解释",
-      "date": "2023-08-15",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/408932.html",
-      "keyChanges": [],
-      "examRelevance": "新发布司法解释/司法文件，涉及 民法、环境资源法 考点，请关注后续精编解读。",
-      "affectedSubjects": [
-        "民法",
         "环境资源法"
       ]
     },
@@ -2066,20 +2066,6 @@
       ]
     },
     {
-      "id": "sfjs-353731",
-      "priority": "high",
-      "type": "interpretation",
-      "title": "最高人民法院关于修改《最高人民法院关于适用〈中华人民共和国民事诉讼法〉的解释》的决定",
-      "date": "2022-04-02",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/353731.html",
-      "keyChanges": [],
-      "examRelevance": "新发布司法解释/司法文件，涉及 民事诉讼法 考点，请关注后续精编解读。",
-      "affectedSubjects": [
-        "民事诉讼法"
-      ]
-    },
-    {
       "id": "sfjs-353651",
       "priority": "high",
       "type": "interpretation",
@@ -2087,6 +2073,20 @@
       "date": "2022-04-02",
       "authority": "最高人民法院",
       "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/353651.html",
+      "keyChanges": [],
+      "examRelevance": "新发布司法解释/司法文件，涉及 民事诉讼法 考点，请关注后续精编解读。",
+      "affectedSubjects": [
+        "民事诉讼法"
+      ]
+    },
+    {
+      "id": "sfjs-353731",
+      "priority": "high",
+      "type": "interpretation",
+      "title": "最高人民法院关于修改《最高人民法院关于适用〈中华人民共和国民事诉讼法〉的解释》的决定",
+      "date": "2022-04-02",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/353731.html",
       "keyChanges": [],
       "examRelevance": "新发布司法解释/司法文件，涉及 民事诉讼法 考点，请关注后续精编解读。",
       "affectedSubjects": [
@@ -2148,6 +2148,18 @@
       "affectedSubjects": []
     },
     {
+      "id": "sfjs-347221",
+      "priority": "medium",
+      "type": "interpretation",
+      "title": "最高人民法院关于适用《中华人民共和国民法典》总则编若干问题的解释",
+      "date": "2022-02-25",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/347221.html",
+      "keyChanges": [],
+      "examRelevance": "官方司法文件，与法考/法硕的关联及科目归属待精编确认。",
+      "affectedSubjects": []
+    },
+    {
       "id": "sfjs-347101",
       "priority": "medium",
       "type": "interpretation",
@@ -2161,18 +2173,6 @@
         "民事诉讼法",
         "行政法"
       ]
-    },
-    {
-      "id": "sfjs-347221",
-      "priority": "medium",
-      "type": "interpretation",
-      "title": "最高人民法院关于适用《中华人民共和国民法典》总则编若干问题的解释",
-      "date": "2022-02-25",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/347221.html",
-      "keyChanges": [],
-      "examRelevance": "官方司法文件，与法考/法硕的关联及科目归属待精编确认。",
-      "affectedSubjects": []
     },
     {
       "id": "sfjs-346901",
@@ -2246,6 +2246,18 @@
       ]
     },
     {
+      "id": "sfjs-339521",
+      "priority": "low",
+      "type": "interpretation",
+      "title": "人民法院在线调解规则",
+      "date": "2021-12-31",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/339521.html",
+      "keyChanges": [],
+      "examRelevance": "与法考/法硕关联度较低的官方动态，了解即可。",
+      "affectedSubjects": []
+    },
+    {
       "id": "sfjs-339531",
       "priority": "high",
       "type": "interpretation",
@@ -2258,18 +2270,6 @@
       "affectedSubjects": [
         "刑法"
       ]
-    },
-    {
-      "id": "sfjs-339521",
-      "priority": "low",
-      "type": "interpretation",
-      "title": "人民法院在线调解规则",
-      "date": "2021-12-31",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/339521.html",
-      "keyChanges": [],
-      "examRelevance": "与法考/法硕关联度较低的官方动态，了解即可。",
-      "affectedSubjects": []
     },
     {
       "id": "sfjs-338861",
@@ -2366,18 +2366,6 @@
       "affectedSubjects": []
     },
     {
-      "id": "sfjs-312021",
-      "priority": "medium",
-      "type": "interpretation",
-      "title": "\n\t最高人民法院\n\n\n\t关于审理侵害植物新品种权纠纷案件\n\n\n\t具体应用法律问题的若干规定（二）\n",
-      "date": "2021-07-05",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/312021.html",
-      "keyChanges": [],
-      "examRelevance": "官方司法文件，与法考/法硕的关联及科目归属待精编确认。",
-      "affectedSubjects": []
-    },
-    {
       "id": "sfjs-311791",
       "priority": "high",
       "type": "interpretation",
@@ -2390,6 +2378,18 @@
       "affectedSubjects": [
         "知识产权"
       ]
+    },
+    {
+      "id": "sfjs-312021",
+      "priority": "medium",
+      "type": "interpretation",
+      "title": "\n\t最高人民法院\n\n\n\t关于审理侵害植物新品种权纠纷案件\n\n\n\t具体应用法律问题的若干规定（二）\n",
+      "date": "2021-07-05",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/312021.html",
+      "keyChanges": [],
+      "examRelevance": "官方司法文件，与法考/法硕的关联及科目归属待精编确认。",
+      "affectedSubjects": []
     },
     {
       "id": "sfjs-309551",
@@ -2490,6 +2490,20 @@
       ]
     },
     {
+      "id": "sfjs-293031",
+      "priority": "high",
+      "type": "interpretation",
+      "title": "最高人民法院关于正确确定县级以上地方人民政府行政诉讼被告资格若干问题的规定",
+      "date": "2021-03-26",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/293031.html",
+      "keyChanges": [],
+      "examRelevance": "新发布司法解释/司法文件，涉及 行政法 考点，请关注后续精编解读。",
+      "affectedSubjects": [
+        "行政法"
+      ]
+    },
+    {
       "id": "sfjs-293041",
       "priority": "high",
       "type": "interpretation",
@@ -2501,20 +2515,6 @@
       "examRelevance": "新发布司法解释/司法文件，涉及 民事诉讼法、行政法 考点，请关注后续精编解读。",
       "affectedSubjects": [
         "民事诉讼法",
-        "行政法"
-      ]
-    },
-    {
-      "id": "sfjs-293031",
-      "priority": "high",
-      "type": "interpretation",
-      "title": "最高人民法院关于正确确定县级以上地方人民政府行政诉讼被告资格若干问题的规定",
-      "date": "2021-03-26",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/293031.html",
-      "keyChanges": [],
-      "examRelevance": "新发布司法解释/司法文件，涉及 行政法 考点，请关注后续精编解读。",
-      "affectedSubjects": [
         "行政法"
       ]
     },
@@ -2602,53 +2602,15 @@
       ]
     },
     {
-      "id": "sfjs-282721",
-      "priority": "medium",
+      "id": "sfjs-282621",
+      "priority": "low",
       "type": "interpretation",
-      "title": "最高人民法院关于适用\n《中华人民共和国民法典》有关担保制度的解释",
+      "title": "最高人民法院关于修改《最高人民法院关于在民事审判工作中适用〈中华人民共和国工会法〉若干问题的解释》等二十七件民事类司法解释的决定",
       "date": "2020-12-31",
       "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/282721.html",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/282621.html",
       "keyChanges": [],
-      "examRelevance": "官方司法文件，与法考/法硕的关联及科目归属待精编确认。",
-      "affectedSubjects": []
-    },
-    {
-      "id": "sfjs-282671",
-      "priority": "high",
-      "type": "interpretation",
-      "title": "最高人民法院关于修改\n《最高人民法院关于审理侵犯专利权纠纷案件\n应用法律若干问题的解释（二）》等十八件知识产权类\n司法解释的决定",
-      "date": "2020-12-31",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/282671.html",
-      "keyChanges": [],
-      "examRelevance": "新发布司法解释/司法文件，涉及 知识产权 考点，请关注后续精编解读。",
-      "affectedSubjects": [
-        "知识产权"
-      ]
-    },
-    {
-      "id": "sfjs-282661",
-      "priority": "medium",
-      "type": "interpretation",
-      "title": "最高人民法院关于修改\n《最高人民法院关于人民法院扣押铁路运输货物\n若干问题的规定》等十八件执行类司法解释的决定",
-      "date": "2020-12-31",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/282661.html",
-      "keyChanges": [],
-      "examRelevance": "官方司法文件，与法考/法硕的关联及科目归属待精编确认。",
-      "affectedSubjects": []
-    },
-    {
-      "id": "sfjs-282651",
-      "priority": "high",
-      "type": "interpretation",
-      "title": "最高人民法院关于修改《最高人民法院关于人民法院民事调解工作若干问题的规定》等十九件民事诉讼类司法解释的决定",
-      "date": "2020-12-31",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/282651.html",
-      "keyChanges": [],
-      "examRelevance": "新发布司法解释/司法文件，涉及 民事诉讼法 考点，请关注后续精编解读。",
+      "examRelevance": "与法考/法硕关联度较低，了解即可。",
       "affectedSubjects": [
         "民事诉讼法"
       ]
@@ -2668,51 +2630,93 @@
       ]
     },
     {
-      "id": "sfjs-282621",
-      "priority": "low",
+      "id": "sfjs-282651",
+      "priority": "high",
       "type": "interpretation",
-      "title": "最高人民法院关于修改《最高人民法院关于在民事审判工作中适用〈中华人民共和国工会法〉若干问题的解释》等二十七件民事类司法解释的决定",
+      "title": "最高人民法院关于修改《最高人民法院关于人民法院民事调解工作若干问题的规定》等十九件民事诉讼类司法解释的决定",
       "date": "2020-12-31",
       "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/282621.html",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/282651.html",
       "keyChanges": [],
-      "examRelevance": "与法考/法硕关联度较低，了解即可。",
+      "examRelevance": "新发布司法解释/司法文件，涉及 民事诉讼法 考点，请关注后续精编解读。",
       "affectedSubjects": [
         "民事诉讼法"
       ]
     },
     {
-      "id": "sfjs-282051",
+      "id": "sfjs-282661",
       "priority": "medium",
       "type": "interpretation",
-      "title": "最高人民法院关于适用《中华人民共和国民法典》时间效力的若干规定",
-      "date": "2020-12-30",
+      "title": "最高人民法院关于修改\n《最高人民法院关于人民法院扣押铁路运输货物\n若干问题的规定》等十八件执行类司法解释的决定",
+      "date": "2020-12-31",
       "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/282051.html",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/282661.html",
       "keyChanges": [],
       "examRelevance": "官方司法文件，与法考/法硕的关联及科目归属待精编确认。",
       "affectedSubjects": []
     },
     {
-      "id": "sfjs-282061",
-      "priority": "low",
+      "id": "sfjs-282671",
+      "priority": "high",
       "type": "interpretation",
-      "title": "最高人民法院关于废止部分司法解释及相关规范性文件的决定",
-      "date": "2020-12-30",
+      "title": "最高人民法院关于修改\n《最高人民法院关于审理侵犯专利权纠纷案件\n应用法律若干问题的解释（二）》等十八件知识产权类\n司法解释的决定",
+      "date": "2020-12-31",
       "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/282061.html",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/282671.html",
       "keyChanges": [],
-      "examRelevance": "与法考/法硕关联度较低的官方动态，了解即可。",
+      "examRelevance": "新发布司法解释/司法文件，涉及 知识产权 考点，请关注后续精编解读。",
+      "affectedSubjects": [
+        "知识产权"
+      ]
+    },
+    {
+      "id": "sfjs-282721",
+      "priority": "medium",
+      "type": "interpretation",
+      "title": "最高人民法院关于适用\n《中华人民共和国民法典》有关担保制度的解释",
+      "date": "2020-12-31",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/282721.html",
+      "keyChanges": [],
+      "examRelevance": "官方司法文件，与法考/法硕的关联及科目归属待精编确认。",
       "affectedSubjects": []
     },
     {
-      "id": "sfjs-282071",
-      "priority": "medium",
+      "id": "sfjs-282121",
+      "priority": "high",
       "type": "interpretation",
-      "title": "最高人民法院关于适用《中华人民共和国民法典》婚姻家庭编的解释（一）",
+      "title": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
       "date": "2020-12-30",
       "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/282071.html",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/282121.html",
+      "keyChanges": [],
+      "examRelevance": "新发布司法解释/司法文件，涉及 劳动法 考点，请关注后续精编解读。",
+      "affectedSubjects": [
+        "劳动法"
+      ]
+    },
+    {
+      "id": "sfjs-282111",
+      "priority": "high",
+      "type": "interpretation",
+      "title": "最高人民法院关于审理建设工程施工合同纠纷案件适用法律问题的解释（一）",
+      "date": "2020-12-30",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/282111.html",
+      "keyChanges": [],
+      "examRelevance": "新发布司法解释/司法文件，涉及 民法 考点，请关注后续精编解读。",
+      "affectedSubjects": [
+        "民法"
+      ]
+    },
+    {
+      "id": "sfjs-282101",
+      "priority": "medium",
+      "type": "interpretation",
+      "title": "最高人民法院关于适用《中华人民共和国民法典》物权编的解释（一）",
+      "date": "2020-12-30",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/282101.html",
       "keyChanges": [],
       "examRelevance": "与 民法 相关的官方动态，请关注后续解读与考点分析。",
       "affectedSubjects": [
@@ -2734,13 +2738,13 @@
       ]
     },
     {
-      "id": "sfjs-282101",
+      "id": "sfjs-282071",
       "priority": "medium",
       "type": "interpretation",
-      "title": "最高人民法院关于适用《中华人民共和国民法典》物权编的解释（一）",
+      "title": "最高人民法院关于适用《中华人民共和国民法典》婚姻家庭编的解释（一）",
       "date": "2020-12-30",
       "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/282101.html",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/282071.html",
       "keyChanges": [],
       "examRelevance": "与 民法 相关的官方动态，请关注后续解读与考点分析。",
       "affectedSubjects": [
@@ -2748,32 +2752,28 @@
       ]
     },
     {
-      "id": "sfjs-282111",
-      "priority": "high",
+      "id": "sfjs-282061",
+      "priority": "low",
       "type": "interpretation",
-      "title": "最高人民法院关于审理建设工程施工合同纠纷案件适用法律问题的解释（一）",
+      "title": "最高人民法院关于废止部分司法解释及相关规范性文件的决定",
       "date": "2020-12-30",
       "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/282111.html",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/282061.html",
       "keyChanges": [],
-      "examRelevance": "新发布司法解释/司法文件，涉及 民法 考点，请关注后续精编解读。",
-      "affectedSubjects": [
-        "民法"
-      ]
+      "examRelevance": "与法考/法硕关联度较低的官方动态，了解即可。",
+      "affectedSubjects": []
     },
     {
-      "id": "sfjs-282121",
-      "priority": "high",
+      "id": "sfjs-282051",
+      "priority": "medium",
       "type": "interpretation",
-      "title": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+      "title": "最高人民法院关于适用《中华人民共和国民法典》时间效力的若干规定",
       "date": "2020-12-30",
       "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/282121.html",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/282051.html",
       "keyChanges": [],
-      "examRelevance": "新发布司法解释/司法文件，涉及 劳动法 考点，请关注后续精编解读。",
-      "affectedSubjects": [
-        "劳动法"
-      ]
+      "examRelevance": "官方司法文件，与法考/法硕的关联及科目归属待精编确认。",
+      "affectedSubjects": []
     },
     {
       "id": "sfjs-278191",
@@ -2830,17 +2830,17 @@
       "affectedSubjects": []
     },
     {
-      "id": "sfjs-254921",
-      "priority": "medium",
+      "id": "sfjs-254891",
+      "priority": "high",
       "type": "interpretation",
-      "title": "最高法关于涉网络知识产权侵权纠纷几个法律适用问题的批复",
+      "title": "\n\t最高人民法院&amp;nbsp; 最高人民检察院\n\n\n\t关于办理侵犯知识产权刑事案件具体应用法律若干问题的解释（三）\n",
       "date": "2020-09-13",
       "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/254921.html",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/254891.html",
       "keyChanges": [],
-      "examRelevance": "与 民法、知识产权 相关的官方动态，请关注后续解读与考点分析。",
+      "examRelevance": "新发布司法解释/司法文件，涉及 刑法、知识产权 考点，请关注后续精编解读。",
       "affectedSubjects": [
-        "民法",
+        "刑法",
         "知识产权"
       ]
     },
@@ -2859,31 +2859,17 @@
       ]
     },
     {
-      "id": "sfjs-254891",
-      "priority": "high",
+      "id": "sfjs-254921",
+      "priority": "medium",
       "type": "interpretation",
-      "title": "\n\t最高人民法院&amp;nbsp; 最高人民检察院\n\n\n\t关于办理侵犯知识产权刑事案件具体应用法律若干问题的解释（三）\n",
+      "title": "最高法关于涉网络知识产权侵权纠纷几个法律适用问题的批复",
       "date": "2020-09-13",
       "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/254891.html",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/254921.html",
       "keyChanges": [],
-      "examRelevance": "新发布司法解释/司法文件，涉及 刑法、知识产权 考点，请关注后续精编解读。",
+      "examRelevance": "与 民法、知识产权 相关的官方动态，请关注后续解读与考点分析。",
       "affectedSubjects": [
-        "刑法",
-        "知识产权"
-      ]
-    },
-    {
-      "id": "sfjs-254751",
-      "priority": "high",
-      "type": "interpretation",
-      "title": "最高人民法院关于审理侵犯商业秘密民事案件适用法律若干问题的规定",
-      "date": "2020-09-11",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/254751.html",
-      "keyChanges": [],
-      "examRelevance": "新发布司法解释/司法文件，涉及 知识产权 考点，请关注后续精编解读。",
-      "affectedSubjects": [
+        "民法",
         "知识产权"
       ]
     },
@@ -2899,6 +2885,20 @@
       "examRelevance": "新发布司法解释/司法文件，涉及 行政法、知识产权 考点，请关注后续精编解读。",
       "affectedSubjects": [
         "行政法",
+        "知识产权"
+      ]
+    },
+    {
+      "id": "sfjs-254751",
+      "priority": "high",
+      "type": "interpretation",
+      "title": "最高人民法院关于审理侵犯商业秘密民事案件适用法律若干问题的规定",
+      "date": "2020-09-11",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/254751.html",
+      "keyChanges": [],
+      "examRelevance": "新发布司法解释/司法文件，涉及 知识产权 考点，请关注后续精编解读。",
+      "affectedSubjects": [
         "知识产权"
       ]
     },
@@ -3111,20 +3111,6 @@
       ]
     },
     {
-      "id": "sfjs-167232",
-      "priority": "high",
-      "type": "interpretation",
-      "title": "最高人民法院  最高人民检察院关于办理利用未公开信息交易刑事案件适用法律若干问题的解释",
-      "date": "2019-06-28",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/167232.html",
-      "keyChanges": [],
-      "examRelevance": "新发布司法解释/司法文件，涉及 刑法 考点，请关注后续精编解读。",
-      "affectedSubjects": [
-        "刑法"
-      ]
-    },
-    {
       "id": "sfjs-167222",
       "priority": "high",
       "type": "interpretation",
@@ -3137,6 +3123,20 @@
       "affectedSubjects": [
         "刑法",
         "商法"
+      ]
+    },
+    {
+      "id": "sfjs-167232",
+      "priority": "high",
+      "type": "interpretation",
+      "title": "最高人民法院  最高人民检察院关于办理利用未公开信息交易刑事案件适用法律若干问题的解释",
+      "date": "2019-06-28",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/167232.html",
+      "keyChanges": [],
+      "examRelevance": "新发布司法解释/司法文件，涉及 刑法 考点，请关注后续精编解读。",
+      "affectedSubjects": [
+        "刑法"
       ]
     },
     {
@@ -3196,18 +3196,6 @@
       ]
     },
     {
-      "id": "sfjs-148672",
-      "priority": "medium",
-      "type": "interpretation",
-      "title": "最高人民法院关于修改《最高人民法院关于严格规范民商事案件延长审限和延期开庭问题的规定》的决定",
-      "date": "2019-03-28",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/148672.html",
-      "keyChanges": [],
-      "examRelevance": "官方司法文件，与法考/法硕的关联及科目归属待精编确认。",
-      "affectedSubjects": []
-    },
-    {
       "id": "sfjs-148662",
       "priority": "medium",
       "type": "interpretation",
@@ -3220,6 +3208,18 @@
       "affectedSubjects": [
         "商法"
       ]
+    },
+    {
+      "id": "sfjs-148672",
+      "priority": "medium",
+      "type": "interpretation",
+      "title": "最高人民法院关于修改《最高人民法院关于严格规范民商事案件延长审限和延期开庭问题的规定》的决定",
+      "date": "2019-03-28",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/148672.html",
+      "keyChanges": [],
+      "examRelevance": "官方司法文件，与法考/法硕的关联及科目归属待精编确认。",
+      "affectedSubjects": []
     },
     {
       "id": "sfjs-148032",
@@ -3479,16 +3479,18 @@
       "affectedSubjects": []
     },
     {
-      "id": "sfjs-81942",
-      "priority": "medium",
+      "id": "sfjs-81932",
+      "priority": "high",
       "type": "interpretation",
-      "title": "最高人民法院关于执行和解若干问题的规定",
+      "title": "\n\t最高人民法院关于人民法院办理仲裁裁决执行案件若干问题的\n\n\n\t规定\n",
       "date": "2018-02-23",
       "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/81942.html",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/81932.html",
       "keyChanges": [],
-      "examRelevance": "官方司法文件，与法考/法硕的关联及科目归属待精编确认。",
-      "affectedSubjects": []
+      "examRelevance": "新发布司法解释/司法文件，涉及 民事诉讼法 考点，请关注后续精编解读。",
+      "affectedSubjects": [
+        "民事诉讼法"
+      ]
     },
     {
       "id": "sfjs-81922",
@@ -3503,18 +3505,16 @@
       "affectedSubjects": []
     },
     {
-      "id": "sfjs-81932",
-      "priority": "high",
+      "id": "sfjs-81942",
+      "priority": "medium",
       "type": "interpretation",
-      "title": "\n\t最高人民法院关于人民法院办理仲裁裁决执行案件若干问题的\n\n\n\t规定\n",
+      "title": "最高人民法院关于执行和解若干问题的规定",
       "date": "2018-02-23",
       "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/81932.html",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/81942.html",
       "keyChanges": [],
-      "examRelevance": "新发布司法解释/司法文件，涉及 民事诉讼法 考点，请关注后续精编解读。",
-      "affectedSubjects": [
-        "民事诉讼法"
-      ]
+      "examRelevance": "官方司法文件，与法考/法硕的关联及科目归属待精编确认。",
+      "affectedSubjects": []
     },
     {
       "id": "sfjs-80342",
@@ -3719,18 +3719,6 @@
       ]
     },
     {
-      "id": "sfjs-37192",
-      "priority": "medium",
-      "type": "interpretation",
-      "title": "最高人民法院关于民事执行中财产调查若干问题的规定",
-      "date": "2017-03-02",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/37192.html",
-      "keyChanges": [],
-      "examRelevance": "官方司法文件，与法考/法硕的关联及科目归属待精编确认。",
-      "affectedSubjects": []
-    },
-    {
       "id": "sfjs-37172",
       "priority": "low",
       "type": "interpretation",
@@ -3743,18 +3731,16 @@
       "affectedSubjects": []
     },
     {
-      "id": "sfjs-37032",
+      "id": "sfjs-37192",
       "priority": "medium",
       "type": "interpretation",
-      "title": "最高人民法院关于内地与香港特别行政区法院就民商事案件相互委托提取证据的安排",
-      "date": "2017-02-28",
+      "title": "最高人民法院关于民事执行中财产调查若干问题的规定",
+      "date": "2017-03-02",
       "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/37032.html",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/37192.html",
       "keyChanges": [],
-      "examRelevance": "与 行政法 相关的官方动态，请关注后续解读与考点分析。",
-      "affectedSubjects": [
-        "行政法"
-      ]
+      "examRelevance": "官方司法文件，与法考/法硕的关联及科目归属待精编确认。",
+      "affectedSubjects": []
     },
     {
       "id": "sfjs-36972",
@@ -3768,6 +3754,20 @@
       "examRelevance": "与 民法 相关的官方动态，请关注后续解读与考点分析。",
       "affectedSubjects": [
         "民法"
+      ]
+    },
+    {
+      "id": "sfjs-37032",
+      "priority": "medium",
+      "type": "interpretation",
+      "title": "最高人民法院关于内地与香港特别行政区法院就民商事案件相互委托提取证据的安排",
+      "date": "2017-02-28",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/37032.html",
+      "keyChanges": [],
+      "examRelevance": "与 行政法 相关的官方动态，请关注后续解读与考点分析。",
+      "affectedSubjects": [
+        "行政法"
       ]
     },
     {
@@ -3867,20 +3867,6 @@
       ]
     },
     {
-      "id": "sfjs-33031",
-      "priority": "high",
-      "type": "interpretation",
-      "title": "最高人民法院关于审理非法行医刑事案件具体应用法律若干问题的解释",
-      "date": "2016-12-19",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/33031.html",
-      "keyChanges": [],
-      "examRelevance": "新发布司法解释/司法文件，涉及 刑法 考点，请关注后续精编解读。",
-      "affectedSubjects": [
-        "刑法"
-      ]
-    },
-    {
       "id": "sfjs-33021",
       "priority": "high",
       "type": "interpretation",
@@ -3888,6 +3874,20 @@
       "date": "2016-12-19",
       "authority": "最高人民法院",
       "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/33021.html",
+      "keyChanges": [],
+      "examRelevance": "新发布司法解释/司法文件，涉及 刑法 考点，请关注后续精编解读。",
+      "affectedSubjects": [
+        "刑法"
+      ]
+    },
+    {
+      "id": "sfjs-33031",
+      "priority": "high",
+      "type": "interpretation",
+      "title": "最高人民法院关于审理非法行医刑事案件具体应用法律若干问题的解释",
+      "date": "2016-12-19",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/33031.html",
       "keyChanges": [],
       "examRelevance": "新发布司法解释/司法文件，涉及 刑法 考点，请关注后续精编解读。",
       "affectedSubjects": [
@@ -3936,6 +3936,18 @@
       ]
     },
     {
+      "id": "sfjs-30091",
+      "priority": "medium",
+      "type": "interpretation",
+      "title": "最高人民法院关于民事执行中变更、追加当事人若干问题的规定",
+      "date": "2016-11-09",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/30091.html",
+      "keyChanges": [],
+      "examRelevance": "官方司法文件，与法考/法硕的关联及科目归属待精编确认。",
+      "affectedSubjects": []
+    },
+    {
       "id": "sfjs-30101",
       "priority": "high",
       "type": "interpretation",
@@ -3948,18 +3960,6 @@
       "affectedSubjects": [
         "民事诉讼法"
       ]
-    },
-    {
-      "id": "sfjs-30091",
-      "priority": "medium",
-      "type": "interpretation",
-      "title": "最高人民法院关于民事执行中变更、追加当事人若干问题的规定",
-      "date": "2016-11-09",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/30091.html",
-      "keyChanges": [],
-      "examRelevance": "官方司法文件，与法考/法硕的关联及科目归属待精编确认。",
-      "affectedSubjects": []
     },
     {
       "id": "sfjs-25751",
@@ -4000,20 +4000,6 @@
       "affectedSubjects": []
     },
     {
-      "id": "sfjs-24271",
-      "priority": "high",
-      "type": "interpretation",
-      "title": "最高人民法院关于审理发生在我国管辖海域相关案件若干问题的规定（二）",
-      "date": "2016-08-02",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/24271.html",
-      "keyChanges": [],
-      "examRelevance": "新发布司法解释/司法文件，涉及 民事诉讼法 考点，请关注后续精编解读。",
-      "affectedSubjects": [
-        "民事诉讼法"
-      ]
-    },
-    {
       "id": "sfjs-24261",
       "priority": "high",
       "type": "interpretation",
@@ -4021,6 +4007,20 @@
       "date": "2016-08-02",
       "authority": "最高人民法院",
       "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/24261.html",
+      "keyChanges": [],
+      "examRelevance": "新发布司法解释/司法文件，涉及 民事诉讼法 考点，请关注后续精编解读。",
+      "affectedSubjects": [
+        "民事诉讼法"
+      ]
+    },
+    {
+      "id": "sfjs-24271",
+      "priority": "high",
+      "type": "interpretation",
+      "title": "最高人民法院关于审理发生在我国管辖海域相关案件若干问题的规定（二）",
+      "date": "2016-08-02",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/24271.html",
       "keyChanges": [],
       "examRelevance": "新发布司法解释/司法文件，涉及 民事诉讼法 考点，请关注后续精编解读。",
       "affectedSubjects": [
@@ -4157,20 +4157,6 @@
       ]
     },
     {
-      "id": "sfjs-16682",
-      "priority": "high",
-      "type": "interpretation",
-      "title": "最高人民法院关于海事法院受理案件范围的规定",
-      "date": "2016-02-24",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/16682.html",
-      "keyChanges": [],
-      "examRelevance": "新发布司法解释/司法文件，涉及 国际法 考点，请关注后续精编解读。",
-      "affectedSubjects": [
-        "国际法"
-      ]
-    },
-    {
       "id": "sfjs-16683",
       "priority": "high",
       "type": "interpretation",
@@ -4182,6 +4168,20 @@
       "examRelevance": "新发布司法解释/司法文件，涉及 民事诉讼法、国际法 考点，请关注后续精编解读。",
       "affectedSubjects": [
         "民事诉讼法",
+        "国际法"
+      ]
+    },
+    {
+      "id": "sfjs-16682",
+      "priority": "high",
+      "type": "interpretation",
+      "title": "最高人民法院关于海事法院受理案件范围的规定",
+      "date": "2016-02-24",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/16682.html",
+      "keyChanges": [],
+      "examRelevance": "新发布司法解释/司法文件，涉及 国际法 考点，请关注后续精编解读。",
+      "affectedSubjects": [
         "国际法"
       ]
     },
@@ -4309,18 +4309,6 @@
       ]
     },
     {
-      "id": "sfjs-15046",
-      "priority": "medium",
-      "type": "interpretation",
-      "title": "最高人民法院关于修改〈最高人民法院关于限制被执行人高消费的若干规定〉的决定",
-      "date": "2015-07-21",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/15046.html",
-      "keyChanges": [],
-      "examRelevance": "官方司法文件，与法考/法硕的关联及科目归属待精编确认。",
-      "affectedSubjects": []
-    },
-    {
       "id": "sfjs-15045",
       "priority": "high",
       "type": "interpretation",
@@ -4333,6 +4321,18 @@
       "affectedSubjects": [
         "刑法"
       ]
+    },
+    {
+      "id": "sfjs-15046",
+      "priority": "medium",
+      "type": "interpretation",
+      "title": "最高人民法院关于修改〈最高人民法院关于限制被执行人高消费的若干规定〉的决定",
+      "date": "2015-07-21",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/15046.html",
+      "keyChanges": [],
+      "examRelevance": "官方司法文件，与法考/法硕的关联及科目归属待精编确认。",
+      "affectedSubjects": []
     },
     {
       "id": "sfjs-15003",
@@ -4350,6 +4350,18 @@
       ]
     },
     {
+      "id": "sfjs-14839",
+      "priority": "medium",
+      "type": "interpretation",
+      "title": "最高人民法院关于认可和执行台湾地区法院民事判决的规定",
+      "date": "2015-06-30",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/14839.html",
+      "keyChanges": [],
+      "examRelevance": "官方司法文件，与法考/法硕的关联及科目归属待精编确认。",
+      "affectedSubjects": []
+    },
+    {
       "id": "sfjs-14840",
       "priority": "high",
       "type": "interpretation",
@@ -4362,18 +4374,6 @@
       "affectedSubjects": [
         "民事诉讼法"
       ]
-    },
-    {
-      "id": "sfjs-14839",
-      "priority": "medium",
-      "type": "interpretation",
-      "title": "最高人民法院关于认可和执行台湾地区法院民事判决的规定",
-      "date": "2015-06-30",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/14839.html",
-      "keyChanges": [],
-      "examRelevance": "官方司法文件，与法考/法硕的关联及科目归属待精编确认。",
-      "affectedSubjects": []
     },
     {
       "id": "sfjs-14615",
@@ -4611,20 +4611,6 @@
       ]
     },
     {
-      "id": "sfjs-6786",
-      "priority": "high",
-      "type": "interpretation",
-      "title": "最高人民法院关于人民法院赔偿委员会依照〈中华人民共和国国家赔偿法〉第三十条规定纠正原生效的赔偿委员会决定应如何适用人身自由赔偿标准问题的批复",
-      "date": "2014-10-24",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/6786.html",
-      "keyChanges": [],
-      "examRelevance": "新发布司法解释/司法文件，涉及 行政法 考点，请关注后续精编解读。",
-      "affectedSubjects": [
-        "行政法"
-      ]
-    },
-    {
       "id": "sfjs-6785",
       "priority": "high",
       "type": "interpretation",
@@ -4639,29 +4625,17 @@
       ]
     },
     {
-      "id": "sfjs-6777",
-      "priority": "medium",
-      "type": "interpretation",
-      "title": "最高人民法院关于审理利用信息网络侵害人身权益民事纠纷案件适用法律若干问题的规定",
-      "date": "2014-10-21",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/6777.html",
-      "keyChanges": [],
-      "examRelevance": "官方司法文件，与法考/法硕的关联及科目归属待精编确认。",
-      "affectedSubjects": []
-    },
-    {
-      "id": "sfjs-6776",
+      "id": "sfjs-6786",
       "priority": "high",
       "type": "interpretation",
-      "title": "最高人民法院、最高人民检察院关于办理走私刑事案件适用法律若干问题的解释",
-      "date": "2014-10-21",
+      "title": "最高人民法院关于人民法院赔偿委员会依照〈中华人民共和国国家赔偿法〉第三十条规定纠正原生效的赔偿委员会决定应如何适用人身自由赔偿标准问题的批复",
+      "date": "2014-10-24",
       "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/6776.html",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/6786.html",
       "keyChanges": [],
-      "examRelevance": "新发布司法解释/司法文件，涉及 刑法 考点，请关注后续精编解读。",
+      "examRelevance": "新发布司法解释/司法文件，涉及 行政法 考点，请关注后续精编解读。",
       "affectedSubjects": [
-        "刑法"
+        "行政法"
       ]
     },
     {
@@ -4679,6 +4653,32 @@
         "商法",
         "劳动法"
       ]
+    },
+    {
+      "id": "sfjs-6776",
+      "priority": "high",
+      "type": "interpretation",
+      "title": "最高人民法院、最高人民检察院关于办理走私刑事案件适用法律若干问题的解释",
+      "date": "2014-10-21",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/6776.html",
+      "keyChanges": [],
+      "examRelevance": "新发布司法解释/司法文件，涉及 刑法 考点，请关注后续精编解读。",
+      "affectedSubjects": [
+        "刑法"
+      ]
+    },
+    {
+      "id": "sfjs-6777",
+      "priority": "medium",
+      "type": "interpretation",
+      "title": "最高人民法院关于审理利用信息网络侵害人身权益民事纠纷案件适用法律若干问题的规定",
+      "date": "2014-10-21",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/6777.html",
+      "keyChanges": [],
+      "examRelevance": "官方司法文件，与法考/法硕的关联及科目归属待精编确认。",
+      "affectedSubjects": []
     },
     {
       "id": "sfjs-6628",
@@ -4707,6 +4707,20 @@
       ]
     },
     {
+      "id": "sfjs-6314",
+      "priority": "high",
+      "type": "interpretation",
+      "title": "最高人民法院关于审理融资租赁合同纠纷案件适用法律问题的解释",
+      "date": "2014-04-14",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/6314.html",
+      "keyChanges": [],
+      "examRelevance": "新发布司法解释/司法文件，涉及 民法 考点，请关注后续精编解读。",
+      "affectedSubjects": [
+        "民法"
+      ]
+    },
+    {
       "id": "sfjs-6315",
       "priority": "high",
       "type": "interpretation",
@@ -4722,17 +4736,17 @@
       ]
     },
     {
-      "id": "sfjs-6314",
+      "id": "sfjs-6134",
       "priority": "high",
       "type": "interpretation",
-      "title": "最高人民法院关于审理融资租赁合同纠纷案件适用法律问题的解释",
-      "date": "2014-04-14",
+      "title": "最高人民法院关于审理涉及农村土地承包经营纠纷调解仲裁案件适用法律若干问题的解释",
+      "date": "2014-02-27",
       "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/6314.html",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/6134.html",
       "keyChanges": [],
-      "examRelevance": "新发布司法解释/司法文件，涉及 民法 考点，请关注后续精编解读。",
+      "examRelevance": "新发布司法解释/司法文件，涉及 民事诉讼法 考点，请关注后续精编解读。",
       "affectedSubjects": [
-        "民法"
+        "民事诉讼法"
       ]
     },
     {
@@ -4747,20 +4761,6 @@
       "examRelevance": "与 商法 相关的官方动态，请关注后续解读与考点分析。",
       "affectedSubjects": [
         "商法"
-      ]
-    },
-    {
-      "id": "sfjs-6134",
-      "priority": "high",
-      "type": "interpretation",
-      "title": "最高人民法院关于审理涉及农村土地承包经营纠纷调解仲裁案件适用法律若干问题的解释",
-      "date": "2014-02-27",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/6134.html",
-      "keyChanges": [],
-      "examRelevance": "新发布司法解释/司法文件，涉及 民事诉讼法 考点，请关注后续精编解读。",
-      "affectedSubjects": [
-        "民事诉讼法"
       ]
     },
     {
@@ -4816,20 +4816,6 @@
       ]
     },
     {
-      "id": "sfjs-5723",
-      "priority": "high",
-      "type": "interpretation",
-      "title": "最高人民法院关于审理编造、故意传播虚假恐怖信息刑事案件适用法律若干问题的解释",
-      "date": "2013-10-08",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/5723.html",
-      "keyChanges": [],
-      "examRelevance": "新发布司法解释/司法文件，涉及 刑法 考点，请关注后续精编解读。",
-      "affectedSubjects": [
-        "刑法"
-      ]
-    },
-    {
       "id": "sfjs-5722",
       "priority": "low",
       "type": "interpretation",
@@ -4844,17 +4830,17 @@
       ]
     },
     {
-      "id": "sfjs-5681",
-      "priority": "medium",
+      "id": "sfjs-5723",
+      "priority": "high",
       "type": "interpretation",
-      "title": "最高人民法院关于适用《中华人民共和国企业破产法》若干问题的规定（二）",
-      "date": "2013-09-13",
+      "title": "最高人民法院关于审理编造、故意传播虚假恐怖信息刑事案件适用法律若干问题的解释",
+      "date": "2013-10-08",
       "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/5681.html",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/5723.html",
       "keyChanges": [],
-      "examRelevance": "与 商法 相关的官方动态，请关注后续解读与考点分析。",
+      "examRelevance": "新发布司法解释/司法文件，涉及 刑法 考点，请关注后续精编解读。",
       "affectedSubjects": [
-        "商法"
+        "刑法"
       ]
     },
     {
@@ -4869,6 +4855,20 @@
       "examRelevance": "新发布司法解释/司法文件，涉及 刑法 考点，请关注后续精编解读。",
       "affectedSubjects": [
         "刑法"
+      ]
+    },
+    {
+      "id": "sfjs-5681",
+      "priority": "medium",
+      "type": "interpretation",
+      "title": "最高人民法院关于适用《中华人民共和国企业破产法》若干问题的规定（二）",
+      "date": "2013-09-13",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/5681.html",
+      "keyChanges": [],
+      "examRelevance": "与 商法 相关的官方动态，请关注后续解读与考点分析。",
+      "affectedSubjects": [
+        "商法"
       ]
     },
     {
@@ -4896,6 +4896,18 @@
       "affectedSubjects": []
     },
     {
+      "id": "sfjs-5571",
+      "priority": "low",
+      "type": "interpretation",
+      "title": "最高人民法院关于公布失信被执行人名单信息的若干规定",
+      "date": "2013-07-24",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/5571.html",
+      "keyChanges": [],
+      "examRelevance": "与法考/法硕关联度较低，了解即可。",
+      "affectedSubjects": []
+    },
+    {
       "id": "sfjs-5572",
       "priority": "high",
       "type": "interpretation",
@@ -4908,18 +4920,6 @@
       "affectedSubjects": [
         "刑法"
       ]
-    },
-    {
-      "id": "sfjs-5571",
-      "priority": "low",
-      "type": "interpretation",
-      "title": "最高人民法院关于公布失信被执行人名单信息的若干规定",
-      "date": "2013-07-24",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/5571.html",
-      "keyChanges": [],
-      "examRelevance": "与法考/法硕关联度较低，了解即可。",
-      "affectedSubjects": []
     },
     {
       "id": "sfjs-5489",
@@ -5023,18 +5023,16 @@
       ]
     },
     {
-      "id": "sfjs-5228",
-      "priority": "high",
+      "id": "sfjs-5226",
+      "priority": "low",
       "type": "interpretation",
-      "title": "最高人民法院、最高人民检察院关于办理盗窃刑事案件适用法律若干问题的解释",
+      "title": "最高人民法院、最高人民检察院关于废止1997年7月1日至2011年12月31日期间制发的部分司法解释和司法解释性质文件的决定",
       "date": "2013-04-08",
       "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/5228.html",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/5226.html",
       "keyChanges": [],
-      "examRelevance": "新发布司法解释/司法文件，涉及 刑法 考点，请关注后续精编解读。",
-      "affectedSubjects": [
-        "刑法"
-      ]
+      "examRelevance": "与法考/法硕关联度较低的官方动态，了解即可。",
+      "affectedSubjects": []
     },
     {
       "id": "sfjs-5227",
@@ -5049,16 +5047,18 @@
       "affectedSubjects": []
     },
     {
-      "id": "sfjs-5226",
-      "priority": "low",
+      "id": "sfjs-5228",
+      "priority": "high",
       "type": "interpretation",
-      "title": "最高人民法院、最高人民检察院关于废止1997年7月1日至2011年12月31日期间制发的部分司法解释和司法解释性质文件的决定",
+      "title": "最高人民法院、最高人民检察院关于办理盗窃刑事案件适用法律若干问题的解释",
       "date": "2013-04-08",
       "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/5226.html",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/5228.html",
       "keyChanges": [],
-      "examRelevance": "与法考/法硕关联度较低的官方动态，了解即可。",
-      "affectedSubjects": []
+      "examRelevance": "新发布司法解释/司法文件，涉及 刑法 考点，请关注后续精编解读。",
+      "affectedSubjects": [
+        "刑法"
+      ]
     },
     {
       "id": "sfjs-5215",
@@ -5102,18 +5102,6 @@
       ]
     },
     {
-      "id": "sfjs-5030",
-      "priority": "low",
-      "type": "interpretation",
-      "title": "最高人民法院关于废止1980年1月1日至1997年6月30日期间发布的部分司法解释和司法解释性质文件（第九批）的决定",
-      "date": "2013-01-21",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/5030.html",
-      "keyChanges": [],
-      "examRelevance": "与法考/法硕关联度较低的官方动态，了解即可。",
-      "affectedSubjects": []
-    },
-    {
       "id": "sfjs-5029",
       "priority": "low",
       "type": "interpretation",
@@ -5121,6 +5109,18 @@
       "date": "2013-01-21",
       "authority": "最高人民法院",
       "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/5029.html",
+      "keyChanges": [],
+      "examRelevance": "与法考/法硕关联度较低的官方动态，了解即可。",
+      "affectedSubjects": []
+    },
+    {
+      "id": "sfjs-5030",
+      "priority": "low",
+      "type": "interpretation",
+      "title": "最高人民法院关于废止1980年1月1日至1997年6月30日期间发布的部分司法解释和司法解释性质文件（第九批）的决定",
+      "date": "2013-01-21",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/5030.html",
       "keyChanges": [],
       "examRelevance": "与法考/法硕关联度较低的官方动态，了解即可。",
       "affectedSubjects": []
@@ -5140,20 +5140,6 @@
       ]
     },
     {
-      "id": "sfjs-4955",
-      "priority": "high",
-      "type": "interpretation",
-      "title": "最高人民法院关于修改后的民事诉讼法施行时未结案件适用法律若干问题的规定",
-      "date": "2013-01-04",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/4955.html",
-      "keyChanges": [],
-      "examRelevance": "新发布司法解释/司法文件，涉及 民事诉讼法 考点，请关注后续精编解读。",
-      "affectedSubjects": [
-        "民事诉讼法"
-      ]
-    },
-    {
       "id": "sfjs-4954",
       "priority": "high",
       "type": "interpretation",
@@ -5165,6 +5151,20 @@
       "examRelevance": "新发布司法解释/司法文件，涉及 刑法 考点，请关注后续精编解读。",
       "affectedSubjects": [
         "刑法"
+      ]
+    },
+    {
+      "id": "sfjs-4955",
+      "priority": "high",
+      "type": "interpretation",
+      "title": "最高人民法院关于修改后的民事诉讼法施行时未结案件适用法律若干问题的规定",
+      "date": "2013-01-04",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/4955.html",
+      "keyChanges": [],
+      "examRelevance": "新发布司法解释/司法文件，涉及 民事诉讼法 考点，请关注后续精编解读。",
+      "affectedSubjects": [
+        "民事诉讼法"
       ]
     },
     {
@@ -5183,20 +5183,6 @@
       ]
     },
     {
-      "id": "sfjs-4817",
-      "priority": "high",
-      "type": "interpretation",
-      "title": "最高人民法院关于审理道路交通事故损害赔偿案件适用法律若干问题的解释",
-      "date": "2012-12-25",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/4817.html",
-      "keyChanges": [],
-      "examRelevance": "新发布司法解释/司法文件，涉及 民法 考点，请关注后续精编解读。",
-      "affectedSubjects": [
-        "民法"
-      ]
-    },
-    {
       "id": "sfjs-4816",
       "priority": "high",
       "type": "interpretation",
@@ -5208,6 +5194,20 @@
       "examRelevance": "新发布司法解释/司法文件，涉及 刑法 考点，请关注后续精编解读。",
       "affectedSubjects": [
         "刑法"
+      ]
+    },
+    {
+      "id": "sfjs-4817",
+      "priority": "high",
+      "type": "interpretation",
+      "title": "最高人民法院关于审理道路交通事故损害赔偿案件适用法律若干问题的解释",
+      "date": "2012-12-25",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/4817.html",
+      "keyChanges": [],
+      "examRelevance": "新发布司法解释/司法文件，涉及 民法 考点，请关注后续精编解读。",
+      "affectedSubjects": [
+        "民法"
       ]
     },
     {
@@ -5239,6 +5239,18 @@
       ]
     },
     {
+      "id": "sfjs-4629",
+      "priority": "low",
+      "type": "interpretation",
+      "title": "最高人民法院关于废止1979年底以前发布的部分司法解释和司法解释性质文件（第八批）的决定",
+      "date": "2012-11-09",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/4629.html",
+      "keyChanges": [],
+      "examRelevance": "与法考/法硕关联度较低的官方动态，了解即可。",
+      "affectedSubjects": []
+    },
+    {
       "id": "sfjs-4631",
       "priority": "medium",
       "type": "interpretation",
@@ -5251,18 +5263,6 @@
       "affectedSubjects": [
         "民法"
       ]
-    },
-    {
-      "id": "sfjs-4629",
-      "priority": "low",
-      "type": "interpretation",
-      "title": "最高人民法院关于废止1979年底以前发布的部分司法解释和司法解释性质文件（第八批）的决定",
-      "date": "2012-11-09",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/4629.html",
-      "keyChanges": [],
-      "examRelevance": "与法考/法硕关联度较低的官方动态，了解即可。",
-      "affectedSubjects": []
     },
     {
       "id": "sfjs-4628",
@@ -5443,20 +5443,6 @@
       ]
     },
     {
-      "id": "sfjs-3159",
-      "priority": "high",
-      "type": "interpretation",
-      "title": "最高人民法院关于审理涉及农村集体土地行政案件若干问题的规定",
-      "date": "2011-09-26",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/3159.html",
-      "keyChanges": [],
-      "examRelevance": "新发布司法解释/司法文件，涉及 行政法 考点，请关注后续精编解读。",
-      "affectedSubjects": [
-        "行政法"
-      ]
-    },
-    {
       "id": "sfjs-3158",
       "priority": "medium",
       "type": "interpretation",
@@ -5468,6 +5454,20 @@
       "examRelevance": "与 商法 相关的官方动态，请关注后续解读与考点分析。",
       "affectedSubjects": [
         "商法"
+      ]
+    },
+    {
+      "id": "sfjs-3159",
+      "priority": "high",
+      "type": "interpretation",
+      "title": "最高人民法院关于审理涉及农村集体土地行政案件若干问题的规定",
+      "date": "2011-09-26",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/3159.html",
+      "keyChanges": [],
+      "examRelevance": "新发布司法解释/司法文件，涉及 行政法 考点，请关注后续精编解读。",
+      "affectedSubjects": [
+        "行政法"
       ]
     },
     {
@@ -5497,17 +5497,29 @@
       ]
     },
     {
-      "id": "sfjs-3026",
+      "id": "sfjs-3017",
       "priority": "medium",
       "type": "interpretation",
-      "title": "最高人民法院关于适用〈中华人民共和国婚姻法〉若干问题的解释（三）",
+      "title": "最高人民法院关于人民法院办理海峡两岸送达文书和调查取证司法互助案件的规定",
       "date": "2011-08-15",
       "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/3026.html",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/3017.html",
       "keyChanges": [],
-      "examRelevance": "与 民法 相关的官方动态，请关注后续解读与考点分析。",
+      "examRelevance": "官方司法文件，与法考/法硕的关联及科目归属待精编确认。",
+      "affectedSubjects": []
+    },
+    {
+      "id": "sfjs-3019",
+      "priority": "high",
+      "type": "interpretation",
+      "title": "最高人民法院、最高人民检察院关于办理妨害武装部队制式服装、车辆号牌管理秩序等刑事案件具体应用法律若干问题的解释",
+      "date": "2011-08-15",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/3019.html",
+      "keyChanges": [],
+      "examRelevance": "新发布司法解释/司法文件，涉及 刑法 考点，请关注后续精编解读。",
       "affectedSubjects": [
-        "民法"
+        "刑法"
       ]
     },
     {
@@ -5525,30 +5537,18 @@
       ]
     },
     {
-      "id": "sfjs-3019",
-      "priority": "high",
-      "type": "interpretation",
-      "title": "最高人民法院、最高人民检察院关于办理妨害武装部队制式服装、车辆号牌管理秩序等刑事案件具体应用法律若干问题的解释",
-      "date": "2011-08-15",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/3019.html",
-      "keyChanges": [],
-      "examRelevance": "新发布司法解释/司法文件，涉及 刑法 考点，请关注后续精编解读。",
-      "affectedSubjects": [
-        "刑法"
-      ]
-    },
-    {
-      "id": "sfjs-3017",
+      "id": "sfjs-3026",
       "priority": "medium",
       "type": "interpretation",
-      "title": "最高人民法院关于人民法院办理海峡两岸送达文书和调查取证司法互助案件的规定",
+      "title": "最高人民法院关于适用〈中华人民共和国婚姻法〉若干问题的解释（三）",
       "date": "2011-08-15",
       "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/3017.html",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/3026.html",
       "keyChanges": [],
-      "examRelevance": "官方司法文件，与法考/法硕的关联及科目归属待精编确认。",
-      "affectedSubjects": []
+      "examRelevance": "与 民法 相关的官方动态，请关注后续解读与考点分析。",
+      "affectedSubjects": [
+        "民法"
+      ]
     },
     {
       "id": "sfjs-2815",
@@ -5565,6 +5565,18 @@
       ]
     },
     {
+      "id": "sfjs-2798",
+      "priority": "medium",
+      "type": "interpretation",
+      "title": "最高人民法院关于审判人员在诉讼活动中执行回避制度若干问题的规定",
+      "date": "2011-06-14",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/2798.html",
+      "keyChanges": [],
+      "examRelevance": "官方司法文件，与法考/法硕的关联及科目归属待精编确认。",
+      "affectedSubjects": []
+    },
+    {
       "id": "sfjs-2799",
       "priority": "high",
       "type": "interpretation",
@@ -5579,18 +5591,6 @@
       ]
     },
     {
-      "id": "sfjs-2798",
-      "priority": "medium",
-      "type": "interpretation",
-      "title": "最高人民法院关于审判人员在诉讼活动中执行回避制度若干问题的规定",
-      "date": "2011-06-14",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/2798.html",
-      "keyChanges": [],
-      "examRelevance": "官方司法文件，与法考/法硕的关联及科目归属待精编确认。",
-      "affectedSubjects": []
-    },
-    {
       "id": "sfjs-2710",
       "priority": "medium",
       "type": "interpretation",
@@ -5600,30 +5600,6 @@
       "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/2710.html",
       "keyChanges": [],
       "examRelevance": "官方司法文件，与法考/法硕的关联及科目归属待精编确认。",
-      "affectedSubjects": []
-    },
-    {
-      "id": "sfjs-2600",
-      "priority": "medium",
-      "type": "interpretation",
-      "title": "最高人民法院、最高人民检察院关于执行〈中华人民共和国刑法〉确定罪名的补充规定（五）",
-      "date": "2011-04-29",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/2600.html",
-      "keyChanges": [],
-      "examRelevance": "官方司法文件，与法考/法硕的关联及科目归属待精编确认。",
-      "affectedSubjects": []
-    },
-    {
-      "id": "sfjs-2599",
-      "priority": "low",
-      "type": "interpretation",
-      "title": "最高人民法院关于〈中华人民共和国刑法修正案（八）〉时间效力问题的解释",
-      "date": "2011-04-29",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/2599.html",
-      "keyChanges": [],
-      "examRelevance": "与法考/法硕关联度较低的官方动态，了解即可。",
       "affectedSubjects": []
     },
     {
@@ -5639,6 +5615,30 @@
       "affectedSubjects": [
         "刑法"
       ]
+    },
+    {
+      "id": "sfjs-2599",
+      "priority": "low",
+      "type": "interpretation",
+      "title": "最高人民法院关于〈中华人民共和国刑法修正案（八）〉时间效力问题的解释",
+      "date": "2011-04-29",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/2599.html",
+      "keyChanges": [],
+      "examRelevance": "与法考/法硕关联度较低的官方动态，了解即可。",
+      "affectedSubjects": []
+    },
+    {
+      "id": "sfjs-2600",
+      "priority": "medium",
+      "type": "interpretation",
+      "title": "最高人民法院、最高人民检察院关于执行〈中华人民共和国刑法〉确定罪名的补充规定（五）",
+      "date": "2011-04-29",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/2600.html",
+      "keyChanges": [],
+      "examRelevance": "官方司法文件，与法考/法硕的关联及科目归属待精编确认。",
+      "affectedSubjects": []
     },
     {
       "id": "sfjs-2486",
@@ -5739,18 +5739,6 @@
       ]
     },
     {
-      "id": "sfjs-2032",
-      "priority": "low",
-      "type": "interpretation",
-      "title": "最高人民法院关于对因资不抵债无法继续办学被终止的民办学校如何组织清算问题的批复",
-      "date": "2011-01-07",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/2032.html",
-      "keyChanges": [],
-      "examRelevance": "与法考/法硕关联度较低的官方动态，了解即可。",
-      "affectedSubjects": []
-    },
-    {
       "id": "sfjs-2031",
       "priority": "high",
       "type": "interpretation",
@@ -5763,6 +5751,18 @@
       "affectedSubjects": [
         "刑法"
       ]
+    },
+    {
+      "id": "sfjs-2032",
+      "priority": "low",
+      "type": "interpretation",
+      "title": "最高人民法院关于对因资不抵债无法继续办学被终止的民办学校如何组织清算问题的批复",
+      "date": "2011-01-07",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/2032.html",
+      "keyChanges": [],
+      "examRelevance": "与法考/法硕关联度较低的官方动态，了解即可。",
+      "affectedSubjects": []
     },
     {
       "id": "sfjs-2006",
@@ -5842,20 +5842,6 @@
       "affectedSubjects": []
     },
     {
-      "id": "sfjs-1549",
-      "priority": "high",
-      "type": "interpretation",
-      "title": "最高人民法院关于审理劳动争议案件适用法律若干问题的解释（三）",
-      "date": "2010-09-15",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/1549.html",
-      "keyChanges": [],
-      "examRelevance": "新发布司法解释/司法文件，涉及 劳动法 考点，请关注后续精编解读。",
-      "affectedSubjects": [
-        "劳动法"
-      ]
-    },
-    {
       "id": "sfjs-1546",
       "priority": "high",
       "type": "interpretation",
@@ -5867,6 +5853,20 @@
       "examRelevance": "新发布司法解释/司法文件，涉及 国际法 考点，请关注后续精编解读。",
       "affectedSubjects": [
         "国际法"
+      ]
+    },
+    {
+      "id": "sfjs-1549",
+      "priority": "high",
+      "type": "interpretation",
+      "title": "最高人民法院关于审理劳动争议案件适用法律若干问题的解释（三）",
+      "date": "2010-09-15",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/1549.html",
+      "keyChanges": [],
+      "examRelevance": "新发布司法解释/司法文件，涉及 劳动法 考点，请关注后续精编解读。",
+      "affectedSubjects": [
+        "劳动法"
       ]
     },
     {
@@ -5910,40 +5910,69 @@
       "affectedSubjects": []
     },
     {
-      "id": "sfjs-1181",
-      "priority": "medium",
+      "id": "sfjs-1169",
+      "priority": "high",
       "type": "interpretation",
-      "title": "关于内地与澳门特别行政区相互认可和执行仲裁裁决的安排",
+      "title": "最高人民法院关于审理企业破产案件确定管理人报酬的规定",
       "date": "2010-06-28",
       "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/1181.html",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/1169.html",
       "keyChanges": [],
-      "examRelevance": "与 民事诉讼法、行政法 相关的官方动态，请关注后续解读与考点分析。",
+      "examRelevance": "新发布司法解释/司法文件，涉及 商法 考点，请关注后续精编解读。",
       "affectedSubjects": [
-        "民事诉讼法",
-        "行政法"
+        "商法"
       ]
     },
     {
-      "id": "sfjs-1180",
-      "priority": "medium",
-      "type": "interpretation",
-      "title": "最高人民法院  最高人民检察院关于执行《中华人民共和国刑法》确定罪名的补充规定（三）",
-      "date": "2010-06-28",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/1180.html",
-      "keyChanges": [],
-      "examRelevance": "官方司法文件，与法考/法硕的关联及科目归属待精编确认。",
-      "affectedSubjects": []
-    },
-    {
-      "id": "sfjs-1177",
+      "id": "sfjs-1171",
       "priority": "high",
       "type": "interpretation",
-      "title": "最高人民法院关于审理破坏电力设备刑事案件具体应用法律若干问题的解释",
+      "title": "最高人民法院关于《中华人民共和国企业破产法》施行时尚未审结的企业破产案件适用法律若干问题的规定",
       "date": "2010-06-28",
       "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/1177.html",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/1171.html",
+      "keyChanges": [],
+      "examRelevance": "新发布司法解释/司法文件，涉及 商法 考点，请关注后续精编解读。",
+      "affectedSubjects": [
+        "商法"
+      ]
+    },
+    {
+      "id": "sfjs-1172",
+      "priority": "high",
+      "type": "interpretation",
+      "title": "最高人民法院、最高人民检察院关于办理与盗窃、抢劫、诈骗、抢夺机动车相关刑事案件具体应用法律若干问题的解释",
+      "date": "2010-06-28",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/1172.html",
+      "keyChanges": [],
+      "examRelevance": "新发布司法解释/司法文件，涉及 刑法 考点，请关注后续精编解读。",
+      "affectedSubjects": [
+        "刑法"
+      ]
+    },
+    {
+      "id": "sfjs-1173",
+      "priority": "high",
+      "type": "interpretation",
+      "title": "最高人民法院关于审理涉及会计师事务所在审计业务活动中民事侵权赔偿案件的若干规定",
+      "date": "2010-06-28",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/1173.html",
+      "keyChanges": [],
+      "examRelevance": "新发布司法解释/司法文件，涉及 民法 考点，请关注后续精编解读。",
+      "affectedSubjects": [
+        "民法"
+      ]
+    },
+    {
+      "id": "sfjs-1175",
+      "priority": "high",
+      "type": "interpretation",
+      "title": "最高人民法院关于审理危害军事通信刑事案件具体应用法律若干问题的解释",
+      "date": "2010-06-28",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/1175.html",
       "keyChanges": [],
       "examRelevance": "新发布司法解释/司法文件，涉及 刑法 考点，请关注后续精编解读。",
       "affectedSubjects": [
@@ -5966,13 +5995,13 @@
       ]
     },
     {
-      "id": "sfjs-1175",
+      "id": "sfjs-1177",
       "priority": "high",
       "type": "interpretation",
-      "title": "最高人民法院关于审理危害军事通信刑事案件具体应用法律若干问题的解释",
+      "title": "最高人民法院关于审理破坏电力设备刑事案件具体应用法律若干问题的解释",
       "date": "2010-06-28",
       "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/1175.html",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/1177.html",
       "keyChanges": [],
       "examRelevance": "新发布司法解释/司法文件，涉及 刑法 考点，请关注后续精编解读。",
       "affectedSubjects": [
@@ -5980,110 +6009,80 @@
       ]
     },
     {
-      "id": "sfjs-1173",
-      "priority": "high",
+      "id": "sfjs-1180",
+      "priority": "medium",
       "type": "interpretation",
-      "title": "最高人民法院关于审理涉及会计师事务所在审计业务活动中民事侵权赔偿案件的若干规定",
+      "title": "最高人民法院  最高人民检察院关于执行《中华人民共和国刑法》确定罪名的补充规定（三）",
       "date": "2010-06-28",
       "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/1173.html",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/1180.html",
       "keyChanges": [],
-      "examRelevance": "新发布司法解释/司法文件，涉及 民法 考点，请关注后续精编解读。",
-      "affectedSubjects": [
-        "民法"
-      ]
-    },
-    {
-      "id": "sfjs-1172",
-      "priority": "high",
-      "type": "interpretation",
-      "title": "最高人民法院、最高人民检察院关于办理与盗窃、抢劫、诈骗、抢夺机动车相关刑事案件具体应用法律若干问题的解释",
-      "date": "2010-06-28",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/1172.html",
-      "keyChanges": [],
-      "examRelevance": "新发布司法解释/司法文件，涉及 刑法 考点，请关注后续精编解读。",
-      "affectedSubjects": [
-        "刑法"
-      ]
-    },
-    {
-      "id": "sfjs-1171",
-      "priority": "high",
-      "type": "interpretation",
-      "title": "最高人民法院关于《中华人民共和国企业破产法》施行时尚未审结的企业破产案件适用法律若干问题的规定",
-      "date": "2010-06-28",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/1171.html",
-      "keyChanges": [],
-      "examRelevance": "新发布司法解释/司法文件，涉及 商法 考点，请关注后续精编解读。",
-      "affectedSubjects": [
-        "商法"
-      ]
-    },
-    {
-      "id": "sfjs-1169",
-      "priority": "high",
-      "type": "interpretation",
-      "title": "最高人民法院关于审理企业破产案件确定管理人报酬的规定",
-      "date": "2010-06-28",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/1169.html",
-      "keyChanges": [],
-      "examRelevance": "新发布司法解释/司法文件，涉及 商法 考点，请关注后续精编解读。",
-      "affectedSubjects": [
-        "商法"
-      ]
-    },
-    {
-      "id": "sfjs-1085",
-      "priority": "high",
-      "type": "interpretation",
-      "title": "最高人民法院关于审理企业破产案件指定管理人的规定",
-      "date": "2010-06-09",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/1085.html",
-      "keyChanges": [],
-      "examRelevance": "新发布司法解释/司法文件，涉及 商法 考点，请关注后续精编解读。",
-      "affectedSubjects": [
-        "商法"
-      ]
-    },
-    {
-      "id": "sfjs-1084",
-      "priority": "low",
-      "type": "interpretation",
-      "title": "最高人民法院关于在裁判文书中如何引用刑法修正案的批复",
-      "date": "2010-06-09",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/1084.html",
-      "keyChanges": [],
-      "examRelevance": "与法考/法硕关联度较低的官方动态，了解即可。",
+      "examRelevance": "官方司法文件，与法考/法硕的关联及科目归属待精编确认。",
       "affectedSubjects": []
     },
     {
-      "id": "sfjs-1083",
-      "priority": "high",
+      "id": "sfjs-1181",
+      "priority": "medium",
       "type": "interpretation",
-      "title": "最高人民法院、最高人民检察院关于办理侵犯知识产权刑事案件具体应用法律若干问题的解释（二）",
-      "date": "2010-06-09",
+      "title": "关于内地与澳门特别行政区相互认可和执行仲裁裁决的安排",
+      "date": "2010-06-28",
       "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/1083.html",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/1181.html",
       "keyChanges": [],
-      "examRelevance": "新发布司法解释/司法文件，涉及 刑法、知识产权 考点，请关注后续精编解读。",
+      "examRelevance": "与 民事诉讼法、行政法 相关的官方动态，请关注后续解读与考点分析。",
       "affectedSubjects": [
-        "刑法",
-        "知识产权"
+        "民事诉讼法",
+        "行政法"
       ]
     },
     {
-      "id": "sfjs-1082",
-      "priority": "high",
+      "id": "sfjs-1077",
+      "priority": "medium",
       "type": "interpretation",
-      "title": "最高人民法院、最高人民检察院关于办理危害矿山生产安全刑事案件具体应用法律若干问题的解释",
+      "title": "最高人民法院关于统一行使死刑案件核准权有关问题的决定",
       "date": "2010-06-09",
       "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/1082.html",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/1077.html",
+      "keyChanges": [],
+      "examRelevance": "与 刑法 相关的官方动态，请关注后续解读与考点分析。",
+      "affectedSubjects": [
+        "刑法"
+      ]
+    },
+    {
+      "id": "sfjs-1078",
+      "priority": "medium",
+      "type": "interpretation",
+      "title": "最高人民法院关于审理侵犯植物新品种权纠纷案件具体应用法律问题的若干规定",
+      "date": "2010-06-09",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/1078.html",
+      "keyChanges": [],
+      "examRelevance": "官方司法文件，与法考/法硕的关联及科目归属待精编确认。",
+      "affectedSubjects": []
+    },
+    {
+      "id": "sfjs-1079",
+      "priority": "high",
+      "type": "interpretation",
+      "title": "最高人民法院关于审理不正当竞争民事案件应用法律若干问题的解释",
+      "date": "2010-06-09",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/1079.html",
+      "keyChanges": [],
+      "examRelevance": "新发布司法解释/司法文件，涉及 商法 考点，请关注后续精编解读。",
+      "affectedSubjects": [
+        "商法"
+      ]
+    },
+    {
+      "id": "sfjs-1080",
+      "priority": "high",
+      "type": "interpretation",
+      "title": "最高人民法院、最高人民检察院关于办理盗窃油气、破坏油气设备等刑事案件具体应用法律若干问题的解释",
+      "date": "2010-06-09",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/1080.html",
       "keyChanges": [],
       "examRelevance": "新发布司法解释/司法文件，涉及 刑法 考点，请关注后续精编解读。",
       "affectedSubjects": [
@@ -6105,13 +6104,13 @@
       ]
     },
     {
-      "id": "sfjs-1080",
+      "id": "sfjs-1082",
       "priority": "high",
       "type": "interpretation",
-      "title": "最高人民法院、最高人民检察院关于办理盗窃油气、破坏油气设备等刑事案件具体应用法律若干问题的解释",
+      "title": "最高人民法院、最高人民检察院关于办理危害矿山生产安全刑事案件具体应用法律若干问题的解释",
       "date": "2010-06-09",
       "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/1080.html",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/1082.html",
       "keyChanges": [],
       "examRelevance": "新发布司法解释/司法文件，涉及 刑法 考点，请关注后续精编解读。",
       "affectedSubjects": [
@@ -6119,127 +6118,44 @@
       ]
     },
     {
-      "id": "sfjs-1079",
+      "id": "sfjs-1083",
       "priority": "high",
       "type": "interpretation",
-      "title": "最高人民法院关于审理不正当竞争民事案件应用法律若干问题的解释",
+      "title": "最高人民法院、最高人民检察院关于办理侵犯知识产权刑事案件具体应用法律若干问题的解释（二）",
       "date": "2010-06-09",
       "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/1079.html",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/1083.html",
       "keyChanges": [],
-      "examRelevance": "新发布司法解释/司法文件，涉及 商法 考点，请关注后续精编解读。",
+      "examRelevance": "新发布司法解释/司法文件，涉及 刑法、知识产权 考点，请关注后续精编解读。",
       "affectedSubjects": [
-        "商法"
-      ]
-    },
-    {
-      "id": "sfjs-1078",
-      "priority": "medium",
-      "type": "interpretation",
-      "title": "最高人民法院关于审理侵犯植物新品种权纠纷案件具体应用法律问题的若干规定",
-      "date": "2010-06-09",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/1078.html",
-      "keyChanges": [],
-      "examRelevance": "官方司法文件，与法考/法硕的关联及科目归属待精编确认。",
-      "affectedSubjects": []
-    },
-    {
-      "id": "sfjs-1077",
-      "priority": "medium",
-      "type": "interpretation",
-      "title": "最高人民法院关于统一行使死刑案件核准权有关问题的决定",
-      "date": "2010-06-09",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/1077.html",
-      "keyChanges": [],
-      "examRelevance": "与 刑法 相关的官方动态，请关注后续解读与考点分析。",
-      "affectedSubjects": [
-        "刑法"
-      ]
-    },
-    {
-      "id": "sfjs-1057",
-      "priority": "high",
-      "type": "interpretation",
-      "title": "最高人民法院关于修改《最高人民法院关于审理涉及计算机网络著作权纠纷案件适用法律若干问题的解释》的决定（二）",
-      "date": "2010-06-04",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/1057.html",
-      "keyChanges": [],
-      "examRelevance": "新发布司法解释/司法文件，涉及 知识产权 考点，请关注后续精编解读。",
-      "affectedSubjects": [
+        "刑法",
         "知识产权"
       ]
     },
     {
-      "id": "sfjs-1056",
+      "id": "sfjs-1084",
+      "priority": "low",
+      "type": "interpretation",
+      "title": "最高人民法院关于在裁判文书中如何引用刑法修正案的批复",
+      "date": "2010-06-09",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/1084.html",
+      "keyChanges": [],
+      "examRelevance": "与法考/法硕关联度较低的官方动态，了解即可。",
+      "affectedSubjects": []
+    },
+    {
+      "id": "sfjs-1085",
       "priority": "high",
       "type": "interpretation",
-      "title": "最高人民法院关于审理海上保险纠纷案件若干问题的规定",
-      "date": "2010-06-04",
+      "title": "最高人民法院关于审理企业破产案件指定管理人的规定",
+      "date": "2010-06-09",
       "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/1056.html",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/1085.html",
       "keyChanges": [],
       "examRelevance": "新发布司法解释/司法文件，涉及 商法 考点，请关注后续精编解读。",
       "affectedSubjects": [
         "商法"
-      ]
-    },
-    {
-      "id": "sfjs-1055",
-      "priority": "high",
-      "type": "interpretation",
-      "title": "最高人民法院关于审理走私刑事案件具体应用法律若干问题的解释（二）",
-      "date": "2010-06-04",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/1055.html",
-      "keyChanges": [],
-      "examRelevance": "新发布司法解释/司法文件，涉及 刑法 考点，请关注后续精编解读。",
-      "affectedSubjects": [
-        "刑法"
-      ]
-    },
-    {
-      "id": "sfjs-1054",
-      "priority": "high",
-      "type": "interpretation",
-      "title": "最高人民法院、最高人民检察院关于死刑第二审案件开庭审理程序若干问题的规定（试行）",
-      "date": "2010-06-04",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/1054.html",
-      "keyChanges": [],
-      "examRelevance": "新发布司法解释/司法文件，涉及 刑法 考点，请关注后续精编解读。",
-      "affectedSubjects": [
-        "刑法"
-      ]
-    },
-    {
-      "id": "sfjs-1053",
-      "priority": "medium",
-      "type": "interpretation",
-      "title": "最高人民法院关于适用《中华人民共和国仲裁法》若干问题的解释",
-      "date": "2010-06-04",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/1053.html",
-      "keyChanges": [],
-      "examRelevance": "与 民事诉讼法 相关的官方动态，请关注后续解读与考点分析。",
-      "affectedSubjects": [
-        "民事诉讼法"
-      ]
-    },
-    {
-      "id": "sfjs-1048",
-      "priority": "high",
-      "type": "interpretation",
-      "title": "最高人民法院关于审理劳动争议案件适用法律若干问题的解释（二）",
-      "date": "2010-06-04",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/1048.html",
-      "keyChanges": [],
-      "examRelevance": "新发布司法解释/司法文件，涉及 劳动法 考点，请关注后续精编解读。",
-      "affectedSubjects": [
-        "劳动法"
       ]
     },
     {
@@ -6257,32 +6173,101 @@
       ]
     },
     {
-      "id": "sfjs-1046",
+      "id": "sfjs-1048",
       "priority": "high",
       "type": "interpretation",
-      "title": "最高人民法院关于审理环境污染刑事案件具体应用法律若干问题的解释",
-      "date": "2010-06-03",
+      "title": "最高人民法院关于审理劳动争议案件适用法律若干问题的解释（二）",
+      "date": "2010-06-04",
       "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/1046.html",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/1048.html",
       "keyChanges": [],
-      "examRelevance": "新发布司法解释/司法文件，涉及 刑法、环境资源法 考点，请关注后续精编解读。",
+      "examRelevance": "新发布司法解释/司法文件，涉及 劳动法 考点，请关注后续精编解读。",
       "affectedSubjects": [
-        "刑法",
-        "环境资源法"
+        "劳动法"
       ]
     },
     {
-      "id": "sfjs-1045",
+      "id": "sfjs-1053",
       "priority": "medium",
       "type": "interpretation",
-      "title": "最高人民法院关于适用《中华人民共和国公司法》若干问题的规定（一）",
-      "date": "2010-06-03",
+      "title": "最高人民法院关于适用《中华人民共和国仲裁法》若干问题的解释",
+      "date": "2010-06-04",
       "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/1045.html",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/1053.html",
       "keyChanges": [],
-      "examRelevance": "与 商法 相关的官方动态，请关注后续解读与考点分析。",
+      "examRelevance": "与 民事诉讼法 相关的官方动态，请关注后续解读与考点分析。",
+      "affectedSubjects": [
+        "民事诉讼法"
+      ]
+    },
+    {
+      "id": "sfjs-1054",
+      "priority": "high",
+      "type": "interpretation",
+      "title": "最高人民法院、最高人民检察院关于死刑第二审案件开庭审理程序若干问题的规定（试行）",
+      "date": "2010-06-04",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/1054.html",
+      "keyChanges": [],
+      "examRelevance": "新发布司法解释/司法文件，涉及 刑法 考点，请关注后续精编解读。",
+      "affectedSubjects": [
+        "刑法"
+      ]
+    },
+    {
+      "id": "sfjs-1055",
+      "priority": "high",
+      "type": "interpretation",
+      "title": "最高人民法院关于审理走私刑事案件具体应用法律若干问题的解释（二）",
+      "date": "2010-06-04",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/1055.html",
+      "keyChanges": [],
+      "examRelevance": "新发布司法解释/司法文件，涉及 刑法 考点，请关注后续精编解读。",
+      "affectedSubjects": [
+        "刑法"
+      ]
+    },
+    {
+      "id": "sfjs-1056",
+      "priority": "high",
+      "type": "interpretation",
+      "title": "最高人民法院关于审理海上保险纠纷案件若干问题的规定",
+      "date": "2010-06-04",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/1056.html",
+      "keyChanges": [],
+      "examRelevance": "新发布司法解释/司法文件，涉及 商法 考点，请关注后续精编解读。",
       "affectedSubjects": [
         "商法"
+      ]
+    },
+    {
+      "id": "sfjs-1057",
+      "priority": "high",
+      "type": "interpretation",
+      "title": "最高人民法院关于修改《最高人民法院关于审理涉及计算机网络著作权纠纷案件适用法律若干问题的解释》的决定（二）",
+      "date": "2010-06-04",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/1057.html",
+      "keyChanges": [],
+      "examRelevance": "新发布司法解释/司法文件，涉及 知识产权 考点，请关注后续精编解读。",
+      "affectedSubjects": [
+        "知识产权"
+      ]
+    },
+    {
+      "id": "sfjs-1040",
+      "priority": "high",
+      "type": "interpretation",
+      "title": "最高人民法院关于审理未成年人刑事案件具体应用法律若干问题的解释",
+      "date": "2010-06-03",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/1040.html",
+      "keyChanges": [],
+      "examRelevance": "新发布司法解释/司法文件，涉及 刑法 考点，请关注后续精编解读。",
+      "affectedSubjects": [
+        "刑法"
       ]
     },
     {
@@ -6300,17 +6285,32 @@
       ]
     },
     {
-      "id": "sfjs-1040",
-      "priority": "high",
+      "id": "sfjs-1045",
+      "priority": "medium",
       "type": "interpretation",
-      "title": "最高人民法院关于审理未成年人刑事案件具体应用法律若干问题的解释",
+      "title": "最高人民法院关于适用《中华人民共和国公司法》若干问题的规定（一）",
       "date": "2010-06-03",
       "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/1040.html",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/1045.html",
       "keyChanges": [],
-      "examRelevance": "新发布司法解释/司法文件，涉及 刑法 考点，请关注后续精编解读。",
+      "examRelevance": "与 商法 相关的官方动态，请关注后续解读与考点分析。",
       "affectedSubjects": [
-        "刑法"
+        "商法"
+      ]
+    },
+    {
+      "id": "sfjs-1046",
+      "priority": "high",
+      "type": "interpretation",
+      "title": "最高人民法院关于审理环境污染刑事案件具体应用法律若干问题的解释",
+      "date": "2010-06-03",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/1046.html",
+      "keyChanges": [],
+      "examRelevance": "新发布司法解释/司法文件，涉及 刑法、环境资源法 考点，请关注后续精编解读。",
+      "affectedSubjects": [
+        "刑法",
+        "环境资源法"
       ]
     },
     {
@@ -6367,18 +6367,16 @@
       "affectedSubjects": []
     },
     {
-      "id": "sfjs-302",
-      "priority": "high",
+      "id": "sfjs-297",
+      "priority": "low",
       "type": "interpretation",
-      "title": "最高人民法院 最高人民检察院关于办理利用互联网、移动通讯终端、声讯台制作、复制、出版、贩卖、传播淫秽电子信息刑事案件具体应用法律若干问题的解释（二）",
+      "title": "最高人民法院关于进一步加强合议庭职责的若干规定",
       "date": "2010-02-24",
       "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/302.html",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/297.html",
       "keyChanges": [],
-      "examRelevance": "新发布司法解释/司法文件，涉及 刑法 考点，请关注后续精编解读。",
-      "affectedSubjects": [
-        "刑法"
-      ]
+      "examRelevance": "与法考/法硕关联度较低的官方动态，了解即可。",
+      "affectedSubjects": []
     },
     {
       "id": "sfjs-301",
@@ -6395,66 +6393,13 @@
       ]
     },
     {
-      "id": "sfjs-297",
-      "priority": "low",
+      "id": "sfjs-302",
+      "priority": "high",
       "type": "interpretation",
-      "title": "最高人民法院关于进一步加强合议庭职责的若干规定",
+      "title": "最高人民法院 最高人民检察院关于办理利用互联网、移动通讯终端、声讯台制作、复制、出版、贩卖、传播淫秽电子信息刑事案件具体应用法律若干问题的解释（二）",
       "date": "2010-02-24",
       "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/297.html",
-      "keyChanges": [],
-      "examRelevance": "与法考/法硕关联度较低的官方动态，了解即可。",
-      "affectedSubjects": []
-    },
-    {
-      "id": "sfjs-77",
-      "priority": "high",
-      "type": "interpretation",
-      "title": "最高人民法院关于修改《最高人民法院关于审理非法制造、买卖、运输枪支、弹药、爆炸物等刑事案件具体应用法律若干问题的解释》的决定",
-      "date": "2010-02-10",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/77.html",
-      "keyChanges": [],
-      "examRelevance": "新发布司法解释/司法文件，涉及 刑法、民法 考点，请关注后续精编解读。",
-      "affectedSubjects": [
-        "刑法",
-        "民法"
-      ]
-    },
-    {
-      "id": "sfjs-76",
-      "priority": "high",
-      "type": "interpretation",
-      "title": "最高人民法院关于审理民事级别管辖异议案件若干问题的规定",
-      "date": "2010-02-10",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/76.html",
-      "keyChanges": [],
-      "examRelevance": "新发布司法解释/司法文件，涉及 民事诉讼法 考点，请关注后续精编解读。",
-      "affectedSubjects": [
-        "民事诉讼法"
-      ]
-    },
-    {
-      "id": "sfjs-75",
-      "priority": "low",
-      "type": "interpretation",
-      "title": "最高人民法院关于人民法院委托评估、拍卖和变卖工作的若干规定",
-      "date": "2010-02-10",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/75.html",
-      "keyChanges": [],
-      "examRelevance": "与法考/法硕关联度较低的官方动态，了解即可。",
-      "affectedSubjects": []
-    },
-    {
-      "id": "sfjs-74",
-      "priority": "high",
-      "type": "interpretation",
-      "title": "最高人民法院关于审理洗钱等刑事案件具体应用法律若干问题的解释",
-      "date": "2010-02-10",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/74.html",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/302.html",
       "keyChanges": [],
       "examRelevance": "新发布司法解释/司法文件，涉及 刑法 考点，请关注后续精编解读。",
       "affectedSubjects": [
@@ -6462,117 +6407,39 @@
       ]
     },
     {
-      "id": "sfjs-73",
-      "priority": "low",
-      "type": "interpretation",
-      "title": "最高人民法院关于裁判文书引用法律、法规等规范性法律文件的规定",
-      "date": "2010-02-10",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/73.html",
-      "keyChanges": [],
-      "examRelevance": "与法考/法硕关联度较低的官方动态，了解即可。",
-      "affectedSubjects": []
-    },
-    {
-      "id": "sfjs-72",
+      "id": "sfjs-61",
       "priority": "medium",
       "type": "interpretation",
-      "title": "最高人民法院、最高人民检察院关于执行《中华人民共和国刑法》确定罪名的补充规定（四）",
+      "title": "最高人民法院关于涉港澳民商案件司法文书送达问题若干规定",
       "date": "2010-02-10",
       "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/72.html",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/61.html",
       "keyChanges": [],
       "examRelevance": "官方司法文件，与法考/法硕的关联及科目归属待精编确认。",
       "affectedSubjects": []
     },
     {
-      "id": "sfjs-71",
-      "priority": "medium",
-      "type": "interpretation",
-      "title": "最高人民法院关于适用《中华人民共和国保险法》若干问题的解释（一）",
-      "date": "2010-02-10",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/71.html",
-      "keyChanges": [],
-      "examRelevance": "与 商法 相关的官方动态，请关注后续解读与考点分析。",
-      "affectedSubjects": [
-        "商法"
-      ]
-    },
-    {
-      "id": "sfjs-70",
+      "id": "sfjs-62",
       "priority": "high",
       "type": "interpretation",
-      "title": "最高人民法院关于审理城镇房屋租赁合同纠纷案件具体应用法律若干问题的解释",
+      "title": "最高人民法院关于审理涉及驰名商标保护的民事纠纷案件应用法律若干问题的解释",
       "date": "2010-02-10",
       "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/70.html",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/62.html",
       "keyChanges": [],
-      "examRelevance": "新发布司法解释/司法文件，涉及 民法 考点，请关注后续精编解读。",
+      "examRelevance": "新发布司法解释/司法文件，涉及 知识产权 考点，请关注后续精编解读。",
       "affectedSubjects": [
-        "民法"
+        "知识产权"
       ]
     },
     {
-      "id": "sfjs-69",
+      "id": "sfjs-63",
       "priority": "low",
       "type": "interpretation",
-      "title": "最高人民法院关于在执行附加刑剥夺政治权利期间犯新罪应如何处理的批复",
+      "title": "最高人民法院关于人民法院认可台湾地区有关法院民事判决的补充规定",
       "date": "2010-02-10",
       "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/69.html",
-      "keyChanges": [],
-      "examRelevance": "与法考/法硕关联度较低的官方动态，了解即可。",
-      "affectedSubjects": []
-    },
-    {
-      "id": "sfjs-68",
-      "priority": "high",
-      "type": "interpretation",
-      "title": "最高人民法院、最高人民检察院关于办理生产、销售假药、劣药刑事案件具体应用法律若干问题的解释",
-      "date": "2010-02-10",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/68.html",
-      "keyChanges": [],
-      "examRelevance": "新发布司法解释/司法文件，涉及 刑法 考点，请关注后续精编解读。",
-      "affectedSubjects": [
-        "刑法"
-      ]
-    },
-    {
-      "id": "sfjs-67",
-      "priority": "high",
-      "type": "interpretation",
-      "title": "最高人民法院关于审理物业服务纠纷案件具体应用法律若干问题的解释",
-      "date": "2010-02-10",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/67.html",
-      "keyChanges": [],
-      "examRelevance": "新发布司法解释/司法文件，涉及 民法 考点，请关注后续精编解读。",
-      "affectedSubjects": [
-        "民法"
-      ]
-    },
-    {
-      "id": "sfjs-66",
-      "priority": "medium",
-      "type": "interpretation",
-      "title": "最高人民法院关于审理建筑物区分所有权纠纷案件具体应用法律若干问题的解释",
-      "date": "2010-02-10",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/66.html",
-      "keyChanges": [],
-      "examRelevance": "官方司法文件，与法考/法硕的关联及科目归属待精编确认。",
-      "affectedSubjects": []
-    },
-    {
-      "id": "sfjs-65",
-      "priority": "low",
-      "type": "interpretation",
-      "title": "最高人民法院关于在执行工作中如何计算迟延履行期间的债务利息等问题的批复",
-      "date": "2010-02-10",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/65.html",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/63.html",
       "keyChanges": [],
       "examRelevance": "与法考/法硕关联度较低的官方动态，了解即可。",
       "affectedSubjects": []
@@ -6592,42 +6459,175 @@
       ]
     },
     {
-      "id": "sfjs-63",
+      "id": "sfjs-65",
       "priority": "low",
       "type": "interpretation",
-      "title": "最高人民法院关于人民法院认可台湾地区有关法院民事判决的补充规定",
+      "title": "最高人民法院关于在执行工作中如何计算迟延履行期间的债务利息等问题的批复",
       "date": "2010-02-10",
       "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/63.html",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/65.html",
       "keyChanges": [],
       "examRelevance": "与法考/法硕关联度较低的官方动态，了解即可。",
       "affectedSubjects": []
     },
     {
-      "id": "sfjs-62",
-      "priority": "high",
-      "type": "interpretation",
-      "title": "最高人民法院关于审理涉及驰名商标保护的民事纠纷案件应用法律若干问题的解释",
-      "date": "2010-02-10",
-      "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/62.html",
-      "keyChanges": [],
-      "examRelevance": "新发布司法解释/司法文件，涉及 知识产权 考点，请关注后续精编解读。",
-      "affectedSubjects": [
-        "知识产权"
-      ]
-    },
-    {
-      "id": "sfjs-61",
+      "id": "sfjs-66",
       "priority": "medium",
       "type": "interpretation",
-      "title": "最高人民法院关于涉港澳民商案件司法文书送达问题若干规定",
+      "title": "最高人民法院关于审理建筑物区分所有权纠纷案件具体应用法律若干问题的解释",
       "date": "2010-02-10",
       "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/61.html",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/66.html",
       "keyChanges": [],
       "examRelevance": "官方司法文件，与法考/法硕的关联及科目归属待精编确认。",
       "affectedSubjects": []
+    },
+    {
+      "id": "sfjs-67",
+      "priority": "high",
+      "type": "interpretation",
+      "title": "最高人民法院关于审理物业服务纠纷案件具体应用法律若干问题的解释",
+      "date": "2010-02-10",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/67.html",
+      "keyChanges": [],
+      "examRelevance": "新发布司法解释/司法文件，涉及 民法 考点，请关注后续精编解读。",
+      "affectedSubjects": [
+        "民法"
+      ]
+    },
+    {
+      "id": "sfjs-68",
+      "priority": "high",
+      "type": "interpretation",
+      "title": "最高人民法院、最高人民检察院关于办理生产、销售假药、劣药刑事案件具体应用法律若干问题的解释",
+      "date": "2010-02-10",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/68.html",
+      "keyChanges": [],
+      "examRelevance": "新发布司法解释/司法文件，涉及 刑法 考点，请关注后续精编解读。",
+      "affectedSubjects": [
+        "刑法"
+      ]
+    },
+    {
+      "id": "sfjs-69",
+      "priority": "low",
+      "type": "interpretation",
+      "title": "最高人民法院关于在执行附加刑剥夺政治权利期间犯新罪应如何处理的批复",
+      "date": "2010-02-10",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/69.html",
+      "keyChanges": [],
+      "examRelevance": "与法考/法硕关联度较低的官方动态，了解即可。",
+      "affectedSubjects": []
+    },
+    {
+      "id": "sfjs-70",
+      "priority": "high",
+      "type": "interpretation",
+      "title": "最高人民法院关于审理城镇房屋租赁合同纠纷案件具体应用法律若干问题的解释",
+      "date": "2010-02-10",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/70.html",
+      "keyChanges": [],
+      "examRelevance": "新发布司法解释/司法文件，涉及 民法 考点，请关注后续精编解读。",
+      "affectedSubjects": [
+        "民法"
+      ]
+    },
+    {
+      "id": "sfjs-71",
+      "priority": "medium",
+      "type": "interpretation",
+      "title": "最高人民法院关于适用《中华人民共和国保险法》若干问题的解释（一）",
+      "date": "2010-02-10",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/71.html",
+      "keyChanges": [],
+      "examRelevance": "与 商法 相关的官方动态，请关注后续解读与考点分析。",
+      "affectedSubjects": [
+        "商法"
+      ]
+    },
+    {
+      "id": "sfjs-72",
+      "priority": "medium",
+      "type": "interpretation",
+      "title": "最高人民法院、最高人民检察院关于执行《中华人民共和国刑法》确定罪名的补充规定（四）",
+      "date": "2010-02-10",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/72.html",
+      "keyChanges": [],
+      "examRelevance": "官方司法文件，与法考/法硕的关联及科目归属待精编确认。",
+      "affectedSubjects": []
+    },
+    {
+      "id": "sfjs-73",
+      "priority": "low",
+      "type": "interpretation",
+      "title": "最高人民法院关于裁判文书引用法律、法规等规范性法律文件的规定",
+      "date": "2010-02-10",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/73.html",
+      "keyChanges": [],
+      "examRelevance": "与法考/法硕关联度较低的官方动态，了解即可。",
+      "affectedSubjects": []
+    },
+    {
+      "id": "sfjs-74",
+      "priority": "high",
+      "type": "interpretation",
+      "title": "最高人民法院关于审理洗钱等刑事案件具体应用法律若干问题的解释",
+      "date": "2010-02-10",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/74.html",
+      "keyChanges": [],
+      "examRelevance": "新发布司法解释/司法文件，涉及 刑法 考点，请关注后续精编解读。",
+      "affectedSubjects": [
+        "刑法"
+      ]
+    },
+    {
+      "id": "sfjs-75",
+      "priority": "low",
+      "type": "interpretation",
+      "title": "最高人民法院关于人民法院委托评估、拍卖和变卖工作的若干规定",
+      "date": "2010-02-10",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/75.html",
+      "keyChanges": [],
+      "examRelevance": "与法考/法硕关联度较低的官方动态，了解即可。",
+      "affectedSubjects": []
+    },
+    {
+      "id": "sfjs-76",
+      "priority": "high",
+      "type": "interpretation",
+      "title": "最高人民法院关于审理民事级别管辖异议案件若干问题的规定",
+      "date": "2010-02-10",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/76.html",
+      "keyChanges": [],
+      "examRelevance": "新发布司法解释/司法文件，涉及 民事诉讼法 考点，请关注后续精编解读。",
+      "affectedSubjects": [
+        "民事诉讼法"
+      ]
+    },
+    {
+      "id": "sfjs-77",
+      "priority": "high",
+      "type": "interpretation",
+      "title": "最高人民法院关于修改《最高人民法院关于审理非法制造、买卖、运输枪支、弹药、爆炸物等刑事案件具体应用法律若干问题的解释》的决定",
+      "date": "2010-02-10",
+      "authority": "最高人民法院",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/77.html",
+      "keyChanges": [],
+      "examRelevance": "新发布司法解释/司法文件，涉及 刑法、民法 考点，请关注后续精编解读。",
+      "affectedSubjects": [
+        "刑法",
+        "民法"
+      ]
     },
     {
       "id": "sfjs-56",
@@ -6644,17 +6644,17 @@
       ]
     },
     {
-      "id": "sfjs-3",
+      "id": "sfjs-1",
       "priority": "high",
       "type": "interpretation",
-      "title": "最高人民法院、最高人民检察院关于办理妨害信用卡管理刑事案件具体应用法律若干问题的解释",
+      "title": "最高人民法院关于审理侵犯专利权纠纷案件应用法律若干问题的解释",
       "date": "2010-01-29",
       "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/3.html",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/1.html",
       "keyChanges": [],
-      "examRelevance": "新发布司法解释/司法文件，涉及 刑法 考点，请关注后续精编解读。",
+      "examRelevance": "新发布司法解释/司法文件，涉及 知识产权 考点，请关注后续精编解读。",
       "affectedSubjects": [
-        "刑法"
+        "知识产权"
       ]
     },
     {
@@ -6672,17 +6672,17 @@
       ]
     },
     {
-      "id": "sfjs-1",
+      "id": "sfjs-3",
       "priority": "high",
       "type": "interpretation",
-      "title": "最高人民法院关于审理侵犯专利权纠纷案件应用法律若干问题的解释",
+      "title": "最高人民法院、最高人民检察院关于办理妨害信用卡管理刑事案件具体应用法律若干问题的解释",
       "date": "2010-01-29",
       "authority": "最高人民法院",
-      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/1.html",
+      "description": "（自动收录）最高人民法院司法解释/司法文件，官方原文：https://www.court.gov.cn/fabu/xiangqing/3.html",
       "keyChanges": [],
-      "examRelevance": "新发布司法解释/司法文件，涉及 知识产权 考点，请关注后续精编解读。",
+      "examRelevance": "新发布司法解释/司法文件，涉及 刑法 考点，请关注后续精编解读。",
       "affectedSubjects": [
-        "知识产权"
+        "刑法"
       ]
     }
   ]
